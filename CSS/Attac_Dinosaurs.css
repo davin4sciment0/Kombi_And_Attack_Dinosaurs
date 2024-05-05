@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); /* Importando font do google fonts */
+
+:root, :root[data-theme='cores']{ /* Atribuindo variaveis de cores padrão */
+    --bg-color:#0C0C0C; /* Nome da variavel */
+
+    --link-color:#ABD904;
+    --secundary-link-color:#5e7900;
+
+    --text-color:#fff;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:var(--bg-color); /* Chamando a variavel com a cor de fundo */
+}
+
+/* Inicio sobre */
+.subtitulos{
+    font-size:3vw; /* Tamanho da fonte */
+    font-family:'inter', arial black, sans-serif; /* Tipo da fonte */
+    font-weight:800; /* Expessura da fonte */
+    color:var(--text-color); /* Cor do texto */
+}
+
+.text{
+    font-size:1.4vw;
+    font-family:'inter', arial, sans-serif;
+    font-weight:200;
+    text-align: justify; /* Alinhamento do texto como justificado */
+    color:#fff;
+}
+
+.sobre_items{
+    display:flex;
+    align-items:center; /* Comando que centraliza o objeto verticalmente*/
+    justify-content:center; /* Comando que centraliza o objeto horizontalmente */
+    gap:6vw; /* Espaçamento entre os itens */
+}
+.sobre_img{
+    width:34vw; /* Width = largura */
+}
+.sobre_col{
+    display:flex;
+    flex-direction: column; /* Organiza a div em coluna */
+    gap:1.8vw;
+    width:28vw;
+}
+.sobre_btn{
+    background-color:var(--link-color);
+    border:none;
+    border-radius:0.5rem; /* Arredonda as bordas */
+    width:100%;
+    cursor:pointer; /* Atribui uma animação ao cursor do mouse */
+    padding:1.5vw 0vw 1.5vw 0vw;
+    transition:ease-in-out 0.5s; /* Utilizado para suavizar as animações */
+}
+.sobre_btn:hover{ /* Animação ao passar o mouse em cima do objeto */
+    background-color:var(--secundary-link-color);
+    scale:1.05; /* Aumenta o objeto proporcionalmente */
+}
+.btn_text{
+    font-size:2.5vw;
+    font-family:'inter', arial black, sans-serif;
+    font-weight:1000;
+    color:#1C1C1C;
+    text-transform: uppercase; /* Deixa todo o texto em caixa alta */
+}
+.sobre_text{
+    width:55vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4vw;
+}
+/* Fim sobre */
+/* Inicio fases */
+#fases{
+    width:100%;
+    height:40vw;
+    margin-top:5vw;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-image:url(../IMG/imgfase.png); /* Adicionando imagem de fundo na seção */
+    background-repeat: no-repeat; /* Comando para não repetir a imagem */
+    background-size: cover; /* Comando que faz a imagem de fundo ocupar a seção inteira */
+}
+#fases_setaL{
+    margin-left:2vw;
+}
+#fases_setaR{
+    margin-right:2vw;
+}
+
+#fases i{
+    font-size:3vw;
+    color:var(--text-color);
+    transition:ease-in-out 0.2s;
+}
+#fases i:hover{
+    color:var(--link-color);
+}
+
+.fases_btnpassar{
+    display:flex;
+    justify-content:center;
+    gap:1.1vw;
+}
+.fases_btn{
+    width:1.1vw;
+    height:1.1vw;
+    background-color:var(--text-color);
+    border:none;
+    border-radius:5rem;
+}
+.fases_btn.active{ /* Personalizando botão ativo */
+    background-color:var(--link-color);
+    scale:1.2;
+}
+
+.fases_text{
+    display:flex;
+    flex-direction: column;
+    gap:1vw;
+    width:50vw;
+}
+.fases_text .subtitulos{
+    text-align: right;
+}
+
+.fases_items{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:30vw;
+    margin-top:5vw;
+}
+/* Fim fases */
