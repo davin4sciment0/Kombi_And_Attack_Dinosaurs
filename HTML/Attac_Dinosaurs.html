@@ -9,7 +9,29 @@
     <script src="../JS/script.js" defer></script>
 </head>
 <body>
-    <section id="sobre"> <!-- Seção sobre -->
+
+    <!--Barra de Navegação da página-->
+    <hearder id="barra_nav">
+        <div id="logo_nav"> <!--Divisória do botão logo-->
+            <a><img class="btn_logo_nav" src="../IMG/Logo_emp_GUB/Logo_Verde.png"></a><!--Botão logo-->
+        </div>
+
+        <div id="btns_nav"><!--Divisória dos botões de navegação-->
+            <a class="form_btn_nav">Home</a>
+            <a class="form_btn_nav">Sobre nós</a>
+            <a class="form_btn_nav">Projetos</a>
+            <a class="form_btn_nav">Contato</a>
+        </div>
+    </hearder>
+     <!--Fim Barra de Navegação-->
+
+     <section id="layout">
+        <h1 id="logo">LOGO</h1>
+     </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+
         <div class="sobre_items"> <!-- Divisória contendo elementos do sobre -->
             <img src="../IMG/imgsobre.png" class="sobre_img">
 
@@ -20,14 +42,18 @@
                     <span class="btn_text">Baixar</span>
                 </button></a> <!-- Um botão que direcionará para um caminho atribuido em <a href="">-->
             </div>
+
         </div>
 
         <div class="sobre_text">
             <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing Lorem Ipsum</p>
         </div>
-    </section> <!-- Fim seção sobre -->
 
-    <section id="fases"> <!-- Seção fases -->
+    </section> 
+    <!-- Fim seção Sobre -->
+
+     <!-- Seção fases -->
+    <section id="fases">
         <i id="fases_setaL" class="bi bi-chevron-left"></i> <!-- Icone de seta da biblioteca do bootstrap para passar elementos virada para a esquerda -->
         <div class="fases_items">
             <div class="fases_text">
@@ -45,6 +71,16 @@
             </div>
         </div>
         <i id="fases_setaR" class="bi bi-chevron-right"></i> <!-- Segundo icone de seta da biblioteca do bootstrap para passar elementos virada para a direita -->
-    </section> <!-- Fim seção fases -->
+    </section> 
+    <!-- Fim Seção Fases -->
+
+    <!--Seção Game Art-->
+
+    <section id="game_art">
+        <!--Teremos que usar uma biblioteca nessa Seção-->
+    </section>
+
+    <!-- Fim Seção Game Art -->
+
 </body>
 </html>
