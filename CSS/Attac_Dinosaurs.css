@@ -101,7 +101,7 @@ body{
 /* Inicio sobre -----------------------------------------------------------------  */
 #sobre{
     background-image: linear-gradient(rgba(0, 0, 0, 0)10%, var(--bg-color)50%);
-    padding: 9vw 0 12vw 0;
+    padding: 9vw 0 8vw 0;
 }
 
 .sobre_items{
@@ -170,13 +170,14 @@ body{
 /* Inicio fases ------------------------------------------------------------------ */
 #fases{
     width:100%;
-    height:40vw;
+    height:38vw;
     display:flex;
     align-items:center;
     justify-content: space-between;
     background-image:url(../IMG/imgfase.png); /* Adicionando imagem de fundo na seção */
     background-repeat: no-repeat; /* Comando para não repetir a imagem */
     background-size: cover; /* Comando que faz a imagem de fundo ocupar a seção inteira */
+    background-position: center;
 }
 #fases_setaL{
     margin-left:2vw;
@@ -205,6 +206,7 @@ body{
     background-color:var(--text-color);
     border:none;
     border-radius:5rem;
+    transition:ease-in-out 0.5s;
 }
 .fases_btn.active{ /* Personalizando botão ativo */
     background-color:var(--link-color);
