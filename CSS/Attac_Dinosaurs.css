@@ -24,10 +24,17 @@ body{
     background-color:var(--bg-color);
 }
 */
-body{
+.bgfundo_img{
     background-image: url(../IMG/Backgraund/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bgfundo_color{
+    background-color:var(--bg-color);
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Inicio Barra de Navegação ---------------------------------------------------  */

@@ -1,0 +1,104 @@
+/* CSS responsável pela pagina Sobre nós */
+#inicio{
+    background-image:url(../IMG/imgvagalume.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    height:50vw;
+    display:flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.titulo_pagsobre{
+    font-size:2vw;
+    font-family:"Radio Canada Big", arial black;
+    color:var(--text-color);
+}
+
+.inicio_elementos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2vw;
+    width:35%;
+    height:40vw;
+    background-image: linear-gradient(-90deg, black, rgba(0, 0, 0, 0));
+    padding:5vw;
+}
+/* Fim inicio */
+
+/* Linhas */
+.transicao_cima{
+    border:none;
+    background-color:var(--bg-color);
+    box-shadow:0px -2px 20px 25px var(--bg-color);
+    position:relative;
+    z-index:99;
+}
+.transicao_baixo{
+    border:none;
+    background-color:var(--bg-color);
+    box-shadow:0px 2px 20px 25px var(--bg-color);
+}
+/* Fim linhas */
+/* Grupo */
+#grupo{
+    margin-top:5vw;
+    background-image:url(../IMG/Img_grupo/imggrupo.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:70%;
+    height:30vw;
+    display:flex;
+    flex-direction:column;
+}
+.grupo_elementos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1vw;
+    width:50%;
+    background-image: linear-gradient(90deg, black -15%, rgba(0, 0, 0, 0));
+    height:100%;
+    padding-left:5vw;
+}
+/* Fim grupo */
+/* Integrantes */
+#integrantes{
+    margin-top:5vw;
+    display:flex;
+    justify-content:space-around;
+}
+
+.integrante_img{
+    background-image:url(../IMG/Img_grupo/semfoto.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius:0.5vw;
+    width:15vw;
+    height:20vw;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.integrante_img:hover{
+    filter: brightness(0.40) opacity(0.80);
+    transition:ease-out 0.5s;
+}
+.integrante_img h2{
+    font-size:1.3vw;
+    margin-top:1vw;
+}
+.integrantes_text{
+    font-size:1.1vw;
+    font-family:"inter", sans-serif;
+    font-weight:500;
+    color:#fff;
+    margin-bottom:1vw;
+}
