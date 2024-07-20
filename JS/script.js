@@ -1,18 +1,26 @@
 AOS.init(); //Iniciando a biblioteca de animações com scroll do bootstrap
 
 //Carrosel fases
-const fases_btn = document.querySelectorAll('.fases_btn'); // const resposnavel por pegar todas as classes dos botoes do carrosel
+const fases_btn = document.querySelectorAll('.fases_btn'); // const responsavel por pegar todas as classes dos botoes do carrosel
 const fases_setaR = document.getElementById('fases_setaR'); //const que pega a seta para a direita
 const fases_setaL = document.getElementById('fases_setaL'); //const que pega a seta para a esquerda
 const titulofase = document.getElementById('titulofase');
 
+const textoFase = [ //Array com o título de cada fase
+    'O Posto da Estrada',
+    'O Mercado Abandonado',
+    'Perseguição na Cidade',
+    'Invasão à Base dos Punks',
+    'A Batalha Final',
+];
+
 var numBtnActive = 0; //variavel que representa o numero do botao ativado
 
 function veririficarBtn(){ //função que verifica o botao ativado
-    for(let i=0; i<5; i++){ //estrutura de repetição
+    for(let i=0; i<fases_btn.length; i++){ //estrutura de repetição
         let numfase = i + 1; 
         if(numBtnActive == i){
-            titulofase.innerHTML = 'Fase ' + numfase; //altera o titulo da fase de acordo com o botao selecionado
+            titulofase.innerHTML = '<h2 class="subtitulos">Fase ' + numfase + ': <span> ' + textoFase[i] + '</span></h2>'; //altera o titulo da fase de acordo com o botao selecionado
 
             fases_btn.forEach(function(btn) { //comando que pega todos as classes de fases_btn
                 btn.classList.remove('active'); // removendo as classes actives de todos os botoes

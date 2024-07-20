@@ -28,7 +28,7 @@
      <section id="layout">
         <h1 id="logo" data-aos="zoom-in" data-aos-duration="1000">LOGO</h1>
      </section>
-
+    
     <!-- Seção Sobre -->
     <section id="sobre">
 
@@ -52,32 +52,90 @@
     </section> 
     <!-- Fim seção Sobre -->
 
-     <!-- Seção fases -->
-    <section id="fases">
-        <i id="fases_setaL" class="bi bi-chevron-left"></i> <!-- Icone de seta da biblioteca do bootstrap para passar elementos virada para a esquerda -->
-        <div class="fases_items" data-aos="zoom-out" data-aos-duration="1000">
-            <div class="fases_text">
-                <h2 id="titulofase" class="subtitulos">Fase 1</h2>
-                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+    <main class="conteudo"> <!-- main contendo todo conteudo -->
+        <!-- Seção fases -->
+        <section id="fases">
+            <i id="fases_setaL" class="bi bi-chevron-left"></i> <!-- Icone de seta da biblioteca do bootstrap para passar elementos virada para a esquerda -->
+            <div class="fases_items" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="fases_text">
+                    <h2 id="titulofase" class="subtitulos">Fase 1: <span>O Posto da Estrada</span></h2>
+                    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                </div>
+
+                <div class="fases_btnpassar"> <!-- Divisória onde estarão os botões de animação slider -->
+                    <button class="fases_btn active"></button> <!-- Botão aitvo: o que estará diferente dos outros, mostrando que é o selecionado -->
+                    <button class="fases_btn"></button>
+                    <button class="fases_btn"></button>
+                    <button class="fases_btn"></button>
+                    <button class="fases_btn"></button>
+                </div>
+            </div>
+            <i id="fases_setaR" class="bi bi-chevron-right"></i> <!-- Segundo icone de seta da biblioteca do bootstrap para passar elementos virada para a direita -->
+        </section> 
+        <!-- Fim Seção Fases -->
+
+        <!-- Seção protagonistas -->
+        <section id="protagonistas">
+            <h2 class="titulos">Protagonistas</h2>
+
+            <div class="protagonista_conjunto">
+                
+                <div class="efeitoTransicao_baixo"></div> <!-- Efeito de transicao gradiante entre os elementos voltado para baixo-->
+
+                <div class="protagonista_fundo protagonista_cor1"> <!-- A classe protagonista_cor foi dada para diferenciar as cores dos elementos protagonista_fundo -->
+                    <img data-aos="fade-up-right" data-aos-duration="1000" src="../IMG/Img_personagens/jeronimo.png" class="protagonista_img" />
+                    <div data-aos="fade-up-left" data-aos-duration="1000" class="protagonista_text">
+                        <h2 class="subtitulos">Jerônimo</h2>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                    </div>
+                </div>
+
+                <div class="efeitoTransicao_cima"></div> <!-- Efeito de transicao gradiante entre os elementos voltado para cima-->
+
+                <div class="efeitoTransicao_baixo"></div>
+
+                <div class="protagonista_fundo protagonista_cor2">
+                    <div data-aos="fade-up-right" data-aos-duration="1000" class="protagonista_text">
+                        <h2 class="subtitulos">Seu Zé</h2>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                    </div>
+                    <img data-aos="fade-up-left" data-aos-duration="1000" src="../IMG/Img_personagens/seuze.png" class="protagonista_img" />
+                </div>
+
+                <div class="efeitoTransicao_cima"></div>
+
+                <div class="efeitoTransicao_baixo"></div>
+
+                <div class="protagonista_fundo protagonista_cor3">
+                    <img data-aos="fade-up-right" data-aos-duration="1000" src="../IMG/Img_personagens/mirela.png" class="protagonista_img" />
+                    <div data-aos="fade-up-left" data-aos-duration="1000" class="protagonista_text">
+                        <h2 class="subtitulos">Mirela</h2>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                    </div>
+                </div>
+                <div class="efeitoTransicao_cima"></div>
+
+                <div class="efeitoTransicao_baixo"></div>
+
+                <div class="protagonista_fundo protagonista_cor4">
+                    <div data-aos="fade-up-right" data-aos-duration="1000" class="protagonista_text">
+                        <h2 class="subtitulos">Enzo</h2>
+                        <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                    </div>
+                    <img data-aos="fade-up-left" data-aos-duration="1000" src="../IMG/Img_personagens/enzo.png" class="protagonista_img" />
+                </div>
+                <div class="efeitoTransicao_cima"></div>
             </div>
 
-            <div class="fases_btnpassar"> <!-- Divisória onde estarão os botões de animação slider -->
-                <button class="fases_btn active"></button> <!-- Botão aitvo: o que estará diferente dos outros, mostrando que é o selecionado -->
-                <button class="fases_btn"></button>
-                <button class="fases_btn"></button>
-                <button class="fases_btn"></button>
-                <button class="fases_btn"></button>
-            </div>
-        </div>
-        <i id="fases_setaR" class="bi bi-chevron-right"></i> <!-- Segundo icone de seta da biblioteca do bootstrap para passar elementos virada para a direita -->
-    </section> 
-    <!-- Fim Seção Fases -->
+        </section>
+        <!-- Fim seção protagonistas -->
 
-    <!--Seção Game Art-->
+        <!--Seção Game Art-->
 
-    <section id="game_art">
-        <!--Teremos que usar uma biblioteca nessa Seção-->
-    </section>
+        <section id="game_art">
+            <!--Teremos que usar uma biblioteca nessa Seção-->
+        </section>
+    </main>
 
     <!-- Fim Seção Game Art -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- script da biblioteca de scroll -->

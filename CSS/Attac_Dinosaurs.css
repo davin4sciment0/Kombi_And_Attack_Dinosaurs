@@ -8,6 +8,7 @@
     --link-color:#ABD904;
     --secundary-link-color:#6f8523;
 
+    --title-color:#969696;
     --text-color:#fff;
 }
 
@@ -41,7 +42,7 @@ body{
 .bgfundo_img{
     background-image: url(../IMG/Backgraund/back.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 .bgfundo_color{
     background-color:var(--bg-color);
@@ -119,6 +120,12 @@ a{
 }
 
 /* Fim Layout -------------------------------------------------------------------  */
+
+/* main com conteudo do site ---------------------------------------------------- */
+.conteudo{
+    margin-top:-1vw;
+    background-color:var(--bg-color);
+}
 
 /* Inicio sobre -----------------------------------------------------------------  */
 #sobre{
@@ -251,14 +258,111 @@ a{
     flex-direction: column;
     justify-content:space-between;
     height:30vw;
-    margin-top:5vw;
+    margin-top:2vw;
+}
+
+.fases_text .subtitulos span{
+    font-size:2.3vw;
+    color:var(--link-color);
 }
 /* Fim fases --------------------------------------------------------------------- */
+
+/* Inicio protagonistas ---------------------------------------------------------- */
+#protagonistas{
+    padding-top:4vw;
+}
+.protagonista_conjunto{
+    margin-top:2vw;
+}
+
+.protagonista_fundo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:8vw;
+    height:30vw;
+    padding:5vw 14vw 5vw 14vw;
+}
+.protagonista_cor1{
+    background-image:linear-gradient(90deg, #df7614c4 5%, #df761486 20%, #df761450 40%, #df761415 70%, transparent 90%);
+}
+.protagonista_cor2{
+    background-image:linear-gradient(-90deg, #2B448Cc4 5%, #2B448C86 20%, #2B448C50 40%, #2B448C15 70%, transparent 90%);
+}
+.protagonista_cor3{
+    background-image:linear-gradient(90deg, #845FA6c4 5%, #845FA686 20%, #845FA650 40%, #845FA615 70%, transparent 90%);
+}
+.protagonista_cor4{
+    background-image:linear-gradient(-90deg, #B4870Dc4 5%, #B4870D86 20%, #B4870D50 40%, #B4870D15 70%, transparent 90%);
+}
+
+
+.protagonista_img{
+    animation: scale 5s ease-in-out infinite; /* Animação com duração de 5 segundos e infinita */
+    height:30vw;
+    position:relative;
+    z-index:999;
+}
+
+@keyframes scale { /* Atribui animação a classe ".protagonisa_img" que dentro teve um animation chamado de scale (nome chamado aqui) */
+    0%{
+        scale:1;
+        rotate: 5deg;
+    }
+    50%{
+        scale:1.1;
+        rotate: -5deg;
+    }
+    100%{
+        scale:1;
+        rotate: 5deg;
+    }
+} /* A animação aumenta e rotaciona o elemento */
+
+.protagonista_text{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5vw;
+    padding:0vw 3vw 0vw 3vw;
+    height:30vw;
+}
+.protagonista_cor1 .protagonista_text .subtitulos,
+.protagonista_cor3 .protagonista_text .subtitulos{
+    text-align:right;
+}
+
+.titulos{
+    font-family:"inter";
+    font-weight:800;
+    font-size:5vw;
+    text-transform: uppercase;
+    text-align:center;
+    color:var(--title-color);
+}
+/* Fim protagonistas ------------------------------------------------------------- */
+
+/* Efeito de transicao */
+.efeitoTransicao_baixo{
+    background-image:linear-gradient(#0c0c0c 10%, #0c0c0cda 30%, #0c0c0ca1 50%, #0c0c0c6c 65%, transparent 90%);
+    height:15vw;
+    margin-bottom:-14vw;
+    position:relative;
+    z-index:99;
+}
+
+.efeitoTransicao_cima{
+    background-image:linear-gradient(0deg, #0c0c0c 10%, #0c0c0cda 30%, #0c0c0ca1 50%, #0c0c0c6c 65%, transparent 90%);
+    margin-top:-14vw;
+    height:15vw;
+    position:relative;
+    z-index:99;
+}
+/* Fim efeito de transicao */
 
 /* Inicio Game Art --------------------------------------------------------------- */
 #game_art{
     height: 40vw;
-    background-color: var(--bg-color);
 }
 
 /* Fim Game Art ------------------------------------------------------------------ */

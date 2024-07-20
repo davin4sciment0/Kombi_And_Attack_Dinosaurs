@@ -30,20 +30,17 @@
 }
 /* Fim inicio */
 
-/* Linhas */
-.transicao_cima{
-    border:none;
-    background-color:var(--bg-color);
-    box-shadow:0px -2px 20px 25px var(--bg-color);
-    position:relative;
-    z-index:99;
+/* Efeitos transicao */
+.efeitoTransicao_cima{
+    margin-top:-4vw;
+    height:5vw;
 }
-.transicao_baixo{
-    border:none;
-    background-color:var(--bg-color);
-    box-shadow:0px 2px 20px 25px var(--bg-color);
+.efeitoTransicao_baixo{
+    height:5vw;
+    margin-bottom:-4vw;
 }
-/* Fim linhas */
+/* Fim efeitos transicao */
+
 /* Grupo */
 #grupo{
     margin-top:5vw;
@@ -89,7 +86,7 @@
     cursor:pointer;
 }
 .integrante_img:hover{
-    filter: brightness(0.30);
+    filter: brightness(0.30); /* Adiciona um filtro para escurecer */
 }
 .integrante_img h2{
     font-size:1.3vw;
