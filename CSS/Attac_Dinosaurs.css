@@ -114,8 +114,25 @@ a{
 }
 
 #layout img{
+    animation: scaleLogo 5s ease-in-out infinite;;
     width:45vw;
 }
+
+@keyframes scaleLogo{
+    0%{
+        scale:1;
+    }
+
+    50%{
+        scale:1.05;
+    }
+
+    100%{
+        scale:1;
+    }
+}
+
+
 
 #logo{
     user-select: none;
