@@ -109,8 +109,12 @@ a{
     display: flex;
     flex-direction: column;
     height: 40vw;
-    text-align: center;
     justify-content: center;
+    align-items:center;
+}
+
+#layout img{
+    width:45vw;
 }
 
 #logo{
