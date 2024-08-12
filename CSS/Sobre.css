@@ -122,8 +122,8 @@
     box-shadow: inset 0px -10px 20px 10px var(--bg-color); /* inset é usado para especificar que a sombra deve ser aplicada dentro da caixa do elemento, em vez de fora */
     
 }
-.empresa_imagem #logo{
-    color:#fff;
+.empresa_imagem .logoJogo{
+    width:40vw;
 }
 #empresa .text{
     margin-left:20vw;

@@ -5,6 +5,7 @@ const fases_btn = document.querySelectorAll('.fases_btn'); // const responsavel 
 const fases_setaR = document.getElementById('fases_setaR'); //const que pega a seta para a direita
 const fases_setaL = document.getElementById('fases_setaL'); //const que pega a seta para a esquerda
 const titulofase = document.getElementById('titulofase');
+const bgFases = document.getElementById('fases');
 
 const textoFase = [ //Array com o título de cada fase
     'O Posto da Estrada',
@@ -21,6 +22,7 @@ function veririficarBtn(){ //função que verifica o botao ativado
         let numfase = i + 1; 
         if(numBtnActive == i){
             titulofase.innerHTML = '<h2 class="subtitulos">Fase ' + numfase + ': <span> ' + textoFase[i] + '</span></h2>'; //altera o titulo da fase de acordo com o botao selecionado
+            bgFases.style.backgroundImage = 'url(/IMG/Img_fases/imgFase' + numfase + '.jpg)';
 
             fases_btn.forEach(function(btn) { //comando que pega todos as classes de fases_btn
                 btn.classList.remove('active'); // removendo as classes actives de todos os botoes

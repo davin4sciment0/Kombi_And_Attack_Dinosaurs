@@ -113,7 +113,7 @@ a{
     align-items:center;
 }
 
-#layout img{
+.logoJogo{
     animation: scaleLogo 5s ease-in-out infinite;;
     width:45vw;
 }
@@ -130,14 +130,6 @@ a{
     100%{
         scale:1;
     }
-}
-
-
-
-#logo{
-    user-select: none;
-    font: bold 10vw "Radio Canada Big", sans-serif;
-    color: #313131;
 }
 
 /* Fim Layout -------------------------------------------------------------------  */
@@ -221,13 +213,22 @@ a{
 #fases{
     width:100%;
     height:38vw;
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    background-image:url(../IMG/imgfase.png); /* Adicionando imagem de fundo na seção */
+    background-image:url(../IMG/Img_fases/imgFase1.jpg); /* Adicionando imagem de fundo na seção */
     background-repeat: no-repeat; /* Comando para não repetir a imagem */
     background-size: cover; /* Comando que faz a imagem de fundo ocupar a seção inteira */
     background-position: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    transition: 1s;
+}
+.fases_conteudo{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.904) 5%, rgba(0, 0, 0, 0.705) 50%, rgba(0, 0, 0, 0.377));
+    width:100%;
+    height:100%;
 }
 #fases_setaL{
     margin-left:2vw;
