@@ -217,6 +217,7 @@ a{
     background-repeat: no-repeat; /* Comando para não repetir a imagem */
     background-size: cover; /* Comando que faz a imagem de fundo ocupar a seção inteira */
     background-position: center;
+    background-attachment: fixed; /* Torna a imagem fixa na janela, dando um efeito ao dar scroll */
     display:flex;
     align-items:center;
     justify-content: center;
