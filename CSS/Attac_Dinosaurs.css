@@ -115,7 +115,7 @@ a{
 
 .logoJogo{
     animation: scaleLogo 5s ease-in-out infinite;;
-    width:45vw;
+    width:40vw;
 }
 
 @keyframes scaleLogo{
