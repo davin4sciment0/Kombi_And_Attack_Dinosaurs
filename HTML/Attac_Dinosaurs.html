@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Biblioteca de icones do bootstrap -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Biblioteca de animação com scroll bootstrap -->
     <link rel="stylesheet" href="../CSS/Attac_Dinosaurs.css">
+
 </head>
 <body class="bgfundo_img">
 
@@ -135,12 +136,59 @@
         <!--Seção Game Art-->
 
         <section id="game_art">
-            <!--Teremos que usar uma biblioteca nessa Seção-->
+            <div id="elementos1">
+                <h1 id="titulo">GAME ART</h1>
+                <div class="obj3d1"></div>
+                <p class="text" id="textkomb">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+            </div>
+
+            <div id="elementos2">
+                <div class="obj3d2"></div>
+                <p class="text" id="textvara">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+            </div>
         </section>
+
+        <!-- Fim seção Game Art -->
+
+        <!-- Inicio Seção Video -->
+
+        <section id="video_jogo">
+            <div id="conteudo">
+                <iframe id="Vjogo" src="https://www.youtube.com/embed/dRSavkcwmGc" title="fase 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <a href="" target="_blank" id="baixar">
+                    <button class="sobre_btn" id="btn_baixar">
+                        <span id="text_baixar">Baixar</span>
+                    </button>
+                </a>
+                <p class="text" id="textbaixar">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+            </div>
+        </section>
+
+        <!-- Fim Seção Video -->
+
+        <!-- Inicio Footer-->
+
+        <section id="footer">
+
+        </section>
+
+        <!-- Fim Footer-->
+
     </main>
 
-    <!-- Fim Seção Game Art -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- script da biblioteca de scroll -->
     <script src="../JS/script.js"></script> <!-- script principal -->
+    
+    <script type="importmap" >
+        {
+            "imports":{
+                "three": "../3D_Runner/build/three.module.min.js"
+            }
+        }
+    </script>
+      
+    <script type="module" src="../JS/Komb.js" ></script>
+    <script type="module" src="../JS/Vara.js" ></script>
+
 </body>
 </html>

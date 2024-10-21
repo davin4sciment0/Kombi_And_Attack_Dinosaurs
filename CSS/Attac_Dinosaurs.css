@@ -385,7 +385,116 @@ a{
 
 /* Inicio Game Art --------------------------------------------------------------- */
 #game_art{
-    height: 40vw;
+    height: 75vw;
 }
 
+#elementos1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo{
+    margin: 0 0 0 0;
+    font: bold 7vw Arial;
+    color:#e4e4e4;
+    position: absolute;
+}
+
+.obj3d{
+    display: flex;
+    margin: 2vw auto;
+    justify-content: center;
+}
+
+#textkomb{
+    margin: 35vw 0 0 0;
+    font: normal 1.2vw Arial;
+    color:#e4e4e4;
+    position: absolute;
+    width: 50vw;
+}
+
+#cena{
+    margin: 0vw;
+    user-select: none;
+}
+
+#elementos2{
+    display: flex;
+    justify-content: right;
+}
+
+.obj3d2{
+    display: flex;
+    margin: 3vw auto;
+    justify-content: center;
+    margin-right: 26vw;
+}
+
+#textvara{
+    margin: 12vw 26vw 0 0;
+    font: normal 1.2vw Arial;
+    color:#e4e4e4;
+    position: absolute;
+    width: 18vw;
+}
+
+#cena2{
+    margin: 0vw;
+    user-select: none;
+}
 /* Fim Game Art ------------------------------------------------------------------ */
+
+/* Inicio Video do Jogo ------------------------------------------------------------------ */
+#video_jogo{
+    height: 50vw;
+}
+
+#conteudo{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#Vjogo{
+    width: 60vw;
+    height: 32.3vw;
+    border-radius: 1vw;
+    text-align: center;
+    box-shadow:  33px 33px 20px #0a0a0a,
+    -33px -33px 20px #0e0e0e;
+}
+
+#baixar{
+    position: absolute;
+    margin: 40vw 31vw 0 0;
+}
+
+#btn_baixar{
+    width: 24vw;
+    height: 7vw;
+    text-align: center;
+}
+
+#text_baixar{
+    font-size:2.5vw;
+    font-family:'inter', arial black, sans-serif;
+    font-weight:1000;
+    color:#1C1C1C;
+}
+
+#textbaixar{
+    margin: 39vw 0 0 28vw;
+    font: normal 1.2vw Arial;
+    color:#e4e4e4;
+    position: absolute;
+    width: 28vw;
+}
+/* Fim Video do Jogo ------------------------------------------------------------------ */
+
+
+
+/* Inicio Footer ------------------------------------------------------------------ */
+
+/* Fim Footer ------------------------------------------------------------------ */
