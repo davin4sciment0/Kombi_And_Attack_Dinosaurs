@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!-- Biblioteca de icones do bootstrap -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Biblioteca de animação com scroll bootstrap -->
     <link rel="stylesheet" href="../CSS/Attac_Dinosaurs.css">
+    <link rel="stylesheet" href="../CSS/Attack_Dinosaurs_Mobile.css">
 
 </head>
 <body class="bgfundo_img">
@@ -23,7 +24,20 @@
             <a class="form_btn_nav">Projetos</a>
             <a class="form_btn_nav">Contato</a>
         </div>
+
+        <i id="iconeNavMobile" class="bi bi-list"></i>
     </hearder>
+
+    <div id="barraNav_mobile">
+        <i id="iconeFecharNavMobile" class="bi bi-x-lg"></i>
+
+        <div class="itens_navMobile">
+            <a href="Attac_Dinosaurs.html" class="form_btn_nav">Home</a>
+            <a href="Sobre.html" class="form_btn_nav">Sobre nós</a>
+            <a class="form_btn_nav">Projetos</a>
+            <a class="form_btn_nav">Contato</a>
+        </div>
+    </div>
      <!--Fim Barra de Navegação-->
 
      <section id="layout">
@@ -86,8 +100,8 @@
                 <div class="efeitoTransicao_baixo"></div> <!-- Efeito de transicao gradiante entre os elementos voltado para baixo-->
 
                 <div class="protagonista_fundo protagonista_cor1"> <!-- A classe protagonista_cor foi dada para diferenciar as cores dos elementos protagonista_fundo -->
-                    <img data-aos="fade-up-right" data-aos-duration="1000" src="../IMG/Img_personagens/jeronimo.png" class="protagonista_img" />
-                    <div data-aos="fade-up-left" data-aos-duration="1000" class="protagonista_text">
+                    <img data-aos="zoom-in-right" data-aos-duration="1000" src="../IMG/Img_personagens/jeronimo.png" class="protagonista_img" />
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" class="protagonista_text">
                         <h2 class="subtitulos">Jerônimo</h2>
                         <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
                     </div>
@@ -98,11 +112,11 @@
                 <div class="efeitoTransicao_baixo"></div>
 
                 <div class="protagonista_fundo protagonista_cor2">
-                    <div data-aos="fade-up-right" data-aos-duration="1000" class="protagonista_text">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="protagonista_text">
                         <h2 class="subtitulos">Seu Zé</h2>
                         <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
                     </div>
-                    <img data-aos="fade-up-left" data-aos-duration="1000" src="../IMG/Img_personagens/seuze.png" class="protagonista_img" />
+                    <img data-aos="zoom-in-left" data-aos-duration="1000" src="../IMG/Img_personagens/seuze.png" class="protagonista_img" />
                 </div>
 
                 <div class="efeitoTransicao_cima"></div>
@@ -110,8 +124,8 @@
                 <div class="efeitoTransicao_baixo"></div>
 
                 <div class="protagonista_fundo protagonista_cor3">
-                    <img data-aos="fade-up-right" data-aos-duration="1000" src="../IMG/Img_personagens/mirela.png" class="protagonista_img" />
-                    <div data-aos="fade-up-left" data-aos-duration="1000" class="protagonista_text">
+                    <img data-aos="zoom-in-right" data-aos-duration="1000" src="../IMG/Img_personagens/mirela.png" class="protagonista_img" />
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" class="protagonista_text">
                         <h2 class="subtitulos">Mirela</h2>
                         <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
                     </div>
@@ -121,11 +135,11 @@
                 <div class="efeitoTransicao_baixo"></div>
 
                 <div class="protagonista_fundo protagonista_cor4">
-                    <div data-aos="fade-up-right" data-aos-duration="1000" class="protagonista_text">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="protagonista_text">
                         <h2 class="subtitulos">Enzo</h2>
                         <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
                     </div>
-                    <img data-aos="fade-up-left" data-aos-duration="1000" src="../IMG/Img_personagens/enzo.png" class="protagonista_img" />
+                    <img data-aos="zoom-in-left" data-aos-duration="1000" src="../IMG/Img_personagens/enzo.png" class="protagonista_img" />
                 </div>
                 <div class="efeitoTransicao_cima"></div>
             </div>
@@ -155,12 +169,15 @@
         <section id="video_jogo">
             <div id="conteudo">
                 <iframe id="Vjogo" src="https://www.youtube.com/embed/dRSavkcwmGc" title="fase 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <a href="" target="_blank" id="baixar">
-                    <button class="sobre_btn" id="btn_baixar">
-                        <span id="text_baixar">Baixar</span>
-                    </button>
-                </a>
-                <p class="text" id="textbaixar">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                <div class="video_btntext">
+                    <a href="" target="_blank">
+                        <button class="sobre_btn" id="btn_baixar">
+                            <span class="btn_text">Baixar</span>
+                        </button>
+                    </a>
+
+                    <p class="text textbaixar">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+                </div>
             </div>
         </section>
 

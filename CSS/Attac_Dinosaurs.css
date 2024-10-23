@@ -53,6 +53,10 @@ a{
 }
 
 /* Inicio Barra de Navegação ---------------------------------------------------  */
+#iconeNavMobile, #barraNav_mobile{
+    display:none;
+}
+
 #barra_nav{
     padding-top: 2.5vw;
     display: flex;
@@ -78,7 +82,7 @@ a{
     transition: 1s;
 }
 .btn_logo_nav:hover{
-    width: 3.8vw;
+    scale:1.1;
 }
 
 /*Ajustes da divisória dos botões de navegação da barra_nav*/
@@ -96,10 +100,11 @@ a{
     user-select: none;
     cursor: pointer;
     color: var(--link-color);
-    transition: 1s;
+    transition: 0.5s;
 }
 .form_btn_nav:hover{
     font: bold 1.4vw "Radio Canada Big", sans-serif;
+    color:var(--secundary-link-color);
 }
 
 /* Fim Barra de Navegação ------------------------------------------------------- */
@@ -143,6 +148,7 @@ a{
 /* Inicio sobre -----------------------------------------------------------------  */
 #sobre{
     background-image: linear-gradient(rgba(0, 0, 0, 0)10%, var(--bg-color)50%);
+    background-size:cover;
     padding: 9vw 0 8vw 0;
 }
 
@@ -176,7 +182,7 @@ a{
     font-family:'inter', arial, sans-serif;
     font-weight:200;
     text-align: justify; /* Alinhamento do texto como justificado */
-    color:#fff;
+    color:var(--text-color);
 }
 
 .sobre_btn{
@@ -348,7 +354,6 @@ a{
     justify-content:center;
     gap:1.5vw;
     padding:0vw 3vw 0vw 3vw;
-    height:30vw;
 }
 .protagonista_cor1 .protagonista_text .subtitulos,
 .protagonista_cor3 .protagonista_text .subtitulos{
@@ -397,7 +402,7 @@ a{
 #titulo{
     margin: 0 0 0 0;
     font: bold 7vw Arial;
-    color:#e4e4e4;
+    color:var(--title-color);
     position: absolute;
 }
 
@@ -409,8 +414,9 @@ a{
 
 #textkomb{
     margin: 35vw 0 0 0;
-    font: normal 1.2vw Arial;
-    color:#e4e4e4;
+    font: normal 1.2vw;
+    font-family:"inter", arial;
+    color:var(--text-color);
     position: absolute;
     width: 50vw;
 }
@@ -434,8 +440,9 @@ a{
 
 #textvara{
     margin: 12vw 26vw 0 0;
-    font: normal 1.2vw Arial;
-    color:#e4e4e4;
+    font: normal 1.2vw;
+    font-family:"inter", arial;
+    color:var(--text-color);
     position: absolute;
     width: 18vw;
 }
@@ -453,8 +460,10 @@ a{
 
 #conteudo{
     width: 100%;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
 
 #Vjogo{
@@ -466,9 +475,13 @@ a{
     -33px -33px 20px #0e0e0e;
 }
 
-#baixar{
-    position: absolute;
-    margin: 40vw 31vw 0 0;
+.video_btntext{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:5vw;
+    margin-top:4vw;
 }
 
 #btn_baixar{
@@ -477,18 +490,8 @@ a{
     text-align: center;
 }
 
-#text_baixar{
-    font-size:2.5vw;
-    font-family:'inter', arial black, sans-serif;
-    font-weight:1000;
-    color:#1C1C1C;
-}
-
-#textbaixar{
-    margin: 39vw 0 0 28vw;
-    font: normal 1.2vw Arial;
-    color:#e4e4e4;
-    position: absolute;
+.textbaixar{
+    font-size: 1.2vw;
     width: 28vw;
 }
 /* Fim Video do Jogo ------------------------------------------------------------------ */
