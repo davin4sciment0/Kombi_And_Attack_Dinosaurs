@@ -1,0 +1,165 @@
+@media(max-width:900px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 901px*/
+    ::-webkit-scrollbar{
+        width:6px;
+    }
+
+    .text{
+        font-size:3vw;
+    }
+    
+    /* Navegação ---------------------------------------------------------------------  */
+
+    #iconeNavMobile{
+        display:block;
+        font-size:10vw;
+        color:var(--link-color);
+        margin-right:5vw;
+        cursor:pointer;
+        transition:ease-out 0.5s;
+    }
+    #iconeNavMobile:hover{
+        scale:1.1;
+        color:var(--secundary-link-color);
+    }
+    
+    #barraNav_mobile{
+        display:none;
+        align-items:center; 
+        flex-direction: column;
+        position:fixed;
+        gap:12vw;
+        right:0;
+        width:30vw;
+        height:90vw;
+        background-color: #161616;
+        border-radius:0vw 0vw 2vw 2vw;
+        box-shadow:0px 0px 10px 3px #000;
+        z-index:999999;
+    }
+    .itens_navMobile{
+        display:flex;
+        flex-direction: column;
+        align-items:center; 
+        gap:12vw;
+    }
+    #iconeFecharNavMobile{
+        font-size:5vw;
+        color:var(--link-color);
+        cursor:pointer;
+        transition:ease-out 0.5s;
+        padding-top:5vw;
+    }
+    #iconeFecharNavMobile:hover{
+        scale:1.1;
+        color:var(--secundary-link-color);
+    }
+
+    .form_btn_nav{
+        font-size:4vw;
+    }
+    .form_btn_nav:hover{
+        font-size:4.5vw;
+    }
+    
+    #btns_nav{
+        display:none;
+    }
+
+    #barra_nav{
+        padding-top: 5vw;
+        height: 20vw;
+    }
+
+    #logo_nav{
+        margin-left: 5vw;
+    }
+
+    .btn_logo_nav{
+        width: 10vw;
+    }
+    .btn_logo_nav:hover{
+        width: 12vw;
+    }
+
+    /* Fim navegação ---------------------------------------------------------------------  */
+
+    #inicio{
+        height:150vw;
+        display:flex;
+        align-items:center;
+    }
+    
+    .titulo_pagsobre{
+        font-size:6vw;
+    }
+    
+    .inicio_elementos{
+        gap:4vw;
+        width:55%;
+        height:140vw;
+        padding:3vw;
+    }
+    /* Fim inicio */
+    
+    /* Efeitos transicao */
+    .efeitoTransicao_cima{
+        margin-top:-9vw;
+        height:10vw;
+    }
+    .efeitoTransicao_baixo{
+        height:10vw;
+        margin-bottom:-9vw;
+    }
+    /* Fim efeitos transicao */
+    
+    /* Grupo */
+    #grupo{
+        margin-top:10vw;
+        width:95%;
+        height:55vw;
+        border-radius:0 1vw 1vw 0;
+    }
+    .grupo_elementos{
+        width:80%;
+    }
+    /* Fim grupo */
+    /* Integrantes */
+    #integrantes{
+        margin-top:10vw;
+        flex-wrap: wrap;
+        row-gap: 5vw;
+        padding:0 3vw 0;
+    }
+    
+    .integrante_img{
+        border-radius:2vw;
+        width:40vw;
+        height:55vw;
+    }
+    .integrante_img h2{
+        font-size:4vw;
+        margin-top:2vw;
+    }
+    .integrantes_text{
+        font-size:3.5vw;
+        margin-bottom: 2vw;
+    }
+    /* Fim Integrantes */
+    /* Empresa */
+    #empresa{
+        margin-top:10vw;
+    }
+    .empresa_imagem{
+        height:80vw;
+        border-radius:0% 0% 30% 30%;  
+    }
+    .empresa_imagem .logoJogo{
+        width:70vw;
+    }
+    #empresa .text{
+        margin-left:10vw;
+        margin-right:10vw;
+        margin-top:5vw;
+    }
+    /* Fim Empresa */
+}

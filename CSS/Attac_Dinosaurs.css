@@ -109,6 +109,31 @@ a{
 
 /* Fim Barra de Navegação ------------------------------------------------------- */
 
+/* Formatações texto --------------------------------------------------- */
+.titulos{
+    font-family:"inter";
+    font-weight:800;
+    font-size:5vw;
+    text-transform: uppercase;
+    text-align:center;
+    color:var(--title-color);
+}
+
+.subtitulos{
+    font-size:3vw; /* Tamanho da fonte */
+    font-family:'inter', arial black, sans-serif; /* Tipo da fonte */
+    font-weight:800; /* Expessura da fonte */
+    color:var(--text-color); /* Cor do texto */
+}
+
+.text{
+    font-size:1.4vw;
+    font-family:'inter', arial, sans-serif;
+    font-weight:200;
+    text-align: justify; /* Alinhamento do texto como justificado */
+    color:var(--text-color);
+}
+
 /* Inicio Layout ---------------------------------------------------------------  */
 #layout{
     display: flex;
@@ -168,21 +193,6 @@ a{
     flex-direction: column; /* Organiza a div em coluna */
     gap:1.8vw;
     width:28vw;
-}
-
-.subtitulos{
-    font-size:3vw; /* Tamanho da fonte */
-    font-family:'inter', arial black, sans-serif; /* Tipo da fonte */
-    font-weight:800; /* Expessura da fonte */
-    color:var(--text-color); /* Cor do texto */
-}
-
-.text{
-    font-size:1.4vw;
-    font-family:'inter', arial, sans-serif;
-    font-weight:200;
-    text-align: justify; /* Alinhamento do texto como justificado */
-    color:var(--text-color);
 }
 
 .sobre_btn{
@@ -360,14 +370,6 @@ a{
     text-align:right;
 }
 
-.titulos{
-    font-family:"inter";
-    font-weight:800;
-    font-size:5vw;
-    text-transform: uppercase;
-    text-align:center;
-    color:var(--title-color);
-}
 /* Fim protagonistas ------------------------------------------------------------- */
 
 /* Efeito de transicao */
