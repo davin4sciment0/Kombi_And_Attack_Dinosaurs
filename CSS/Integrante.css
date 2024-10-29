@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0C0C0C;
+}
+
+#divulgacao{
+    height: 60vw;
+}
+
+#informacoes_integrantes{
+    display: flex;
+}
+
+#sep_img{
+    width: 100%;
+    height: 42vw;
+    overflow:hidden;
+    background-color: #0C0C0C;
+    user-select: none;
+}
+
+#foto_integrante{
+    width: 100%;
+    overflow:hidden;
+    opacity: 0.6;
+    user-select: none;
+}
+
+#dados_integrantes{
+    position: absolute;
+    width: 27vw;
+    height: 22vw;
+    margin: 10vw 0 0 16vw;
+}
+
+#nome{
+    font: bold 32pt Verdana;
+    color: aliceblue;
+    user-select: none;
+}
+
+#frase_integrante{
+    font: normal 12pt Verdana;
+    color: aliceblue;
+    margin: 1vw 0 2vw 0;
+    user-select: none;
+}
+
+#sep_icons{
+    width: 17vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 0 1.5vw 0;
+}
+
+.icon_redes{
+    justify-content: center;
+    width: 3vw;
+    transition: 1s;
+    user-select: none;
+}
+
+.icon_redes:hover{
+    width: 3.3vw;
+    transition: 1s;
+}
+
+#btn_curriculum{
+    width: 25vw;
+    height: 4vw;
+    background-color: rgb(172, 45, 45);
+    border: none;
+    border-radius: 0.5vw;
+    transition: 1s;
+}
+
+#btn_curriculum:hover{
+    transition: 0.5s;
+    width: 25.5vw;
+    height: 4.2vw;
+    background-color: rgb(196, 72, 72);
+    border: none;
+    border-radius: 0.5vw;
+}
+
+#download_icon{
+    width: 2vw;
+    transition: 1s;
+    user-select: none;
+}
+
+#download_icon:hover{
+    transition: 0.5s;
+    width: 2.2vw;
+}
+
+#projetos{  
+    position: absolute;
+    margin: 35vw 9vw;
+    display: flex;
+    width: 80vw;
+    height: 17vw;
+    justify-content: space-between;
+}
+
+.projetos_info{
+    background-color: #8d6161;
+    width: 15vw;
+    border-radius: 1vw;
+}
