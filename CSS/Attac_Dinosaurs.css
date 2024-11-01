@@ -4,6 +4,7 @@
 
 :root, :root[data-theme='cores']{ /* Atribuindo variaveis de cores padrão */
     --bg-color:#0C0C0C; /* Nome da variavel */
+    --bg-secundary-color:#1a1a1a;
 
     --link-color:#ABD904;
     --secundary-link-color:#6f8523;
@@ -186,6 +187,7 @@ a{
 
 .sobre_img{
     width:34vw; /* Width = largura */
+    border-radius:1vw;
 }
 
 .sobre_col{
@@ -194,8 +196,14 @@ a{
     gap:1.8vw;
     width:28vw;
 }
+.sobre_text{
+    width:55vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:4vw;
+}
 
-.sobre_btn{
+.btn{
     background-color:var(--secundary-link-color);
     border:none;
     border-radius:1vw; /* Arredonda as bordas */
@@ -205,7 +213,7 @@ a{
     transition:ease-in-out 0.5s; /* Utilizado para suavizar as animações */
 }
 
-.sobre_btn:hover{ /* Animação ao passar o mouse em cima do objeto */
+.btn:hover{ /* Animação ao passar o mouse em cima do objeto */
     background-color:var(--link-color);
     scale:1.05; /* Aumenta o objeto proporcionalmente */
 }
@@ -215,12 +223,6 @@ a{
     font-weight:1000;
     color:#1C1C1C;
     text-transform: uppercase; /* Deixa todo o texto em caixa alta */
-}
-.sobre_text{
-    width:55vw;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:4vw;
 }
 /* Fim sobre --------------------------------------------------------------------- */
 
@@ -457,7 +459,7 @@ a{
 
 /* Inicio Video do Jogo ------------------------------------------------------------------ */
 #video_jogo{
-    height: 50vw;
+    margin-top:5vw;
 }
 
 #conteudo{
@@ -501,5 +503,9 @@ a{
 
 
 /* Inicio Footer ------------------------------------------------------------------ */
-
+    footer{
+        margin-top:5vw;
+        background-color:#000;
+        height:5vw;
+    }
 /* Fim Footer ------------------------------------------------------------------ */

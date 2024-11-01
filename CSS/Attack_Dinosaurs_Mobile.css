@@ -1,4 +1,4 @@
-@media(max-width:900px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 901px*/
+@media(max-width:1000px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 1001px*/
     ::-webkit-scrollbar{
         width:6px;
     }
@@ -126,7 +126,7 @@
         text-align:center;
     }
 
-    .sobre_btn{
+    .btn{
         padding:4vw 0vw 4vw 0vw;
     }
 

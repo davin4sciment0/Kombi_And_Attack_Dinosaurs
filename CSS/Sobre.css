@@ -13,7 +13,7 @@
 }
 
 .titulo_pagsobre{
-    font-size:2vw;
+    font-size:2.5vw;
     font-family:"Radio Canada Big", arial black;
     color:var(--text-color);
 }
@@ -29,6 +29,50 @@
     padding:5vw;
 }
 /* Fim inicio */
+
+/* Estrategias */
+
+#estrategias{
+    margin-top:6vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.estrategias_layout{
+    background-color:var(--bg-secundary-color);
+    width:16vw;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+    padding:2vw;
+    gap:2vw;
+    border-radius:2vw 2vw 0 0;
+    box-shadow:4px 4px 8px 2px #000;
+}
+
+.estrategias_layout .titulo_pagsobre{
+    background-color: var(--secundary-link-color);
+    padding:0.2vw 3vw 0.2vw 3vw;
+    box-shadow:3px 3px 2px 2px #fff;
+    font-size:2vw;
+}
+
+.estrategias_img{
+    background-color:var(--link-color);
+    color:var(--bg-color);
+    border-radius:10vw;
+    font-size:5vw;
+    width:8vw;
+    height:8vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:0.8vw solid var(--bg-color);
+    margin-top:-6vw;
+}
+/* fim estrategias */
 
 /* Efeitos transicao */
 .efeitoTransicao_cima{
@@ -100,6 +144,7 @@
     margin-bottom:1vw;
 }
 /* Fim Integrantes */
+
 /* Empresa */
 #empresa{
     margin-top:5vw;
@@ -131,6 +176,46 @@
     margin-top:2vw;
 }
 .empresa_video{
-    height:30vw;
+    margin-top:5vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:3vw;
+}
+
+.empresa_video .btn{
+    width:40vw;
+    padding:1vw 0vw 1vw 0vw;
+    border-radius:0.5vw;
+}
+
+.btn_text_minusculo{
+    text-transform: none;
+    font-size:2vw;
 }
 /* Fim Empresa */
+
+/* Ferramentas */
+
+#ferramentas{
+    margin-top:6vw;
+    background-image:url(../IMG/imgFerramentas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width:100%;
+    height:40vw;
+    display:flex;
+    align-items:center;
+    justify-content: initial;
+}
+
+.ferramentas_elementos{
+    width:30vw;
+    display:flex;
+    flex-direction: column;
+    gap:1.5vw;
+    padding-left:8vw;
+}
+
+/* Fim ferramentas */

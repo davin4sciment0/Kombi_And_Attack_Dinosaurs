@@ -1,4 +1,4 @@
-@media(max-width:900px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 901px*/
+@media(max-width:1000px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 1001px*/
     ::-webkit-scrollbar{
         width:6px;
     }
@@ -100,6 +100,34 @@
         padding:3vw;
     }
     /* Fim inicio */
+
+    /* Estrategias */
+
+    #estrategias{
+        margin-top:10vw;
+    }
+
+    .estrategias_layout{
+        width:25vw;
+        padding:3vw;
+        gap:4vw;
+    }
+
+    .estrategias_layout .titulo_pagsobre{
+        padding:0.1vw 2vw 0.1vw 2vw;
+        box-shadow:2px 2px 0px 0px #fff;
+        font-size:4.5vw;
+    }
+
+    .estrategias_img{
+        border-radius:10vw;
+        font-size:8vw;
+        width:15vw;
+        height:15vw;
+        border:1.2vw solid var(--bg-color);
+        margin-top:-10vw;
+    }
+    /* fim estrategias */
     
     /* Efeitos transicao */
     .efeitoTransicao_cima{
@@ -161,5 +189,44 @@
         margin-right:10vw;
         margin-top:5vw;
     }
+
+    .empresa_video{
+        margin-top:10vw;
+        gap:5vw;
+    }
+    
+    .empresa_video .btn{
+        width:60vw;
+        padding:3vw 0vw 3vw 0vw;
+        border-radius:0.5vw;
+    }
+
+    .empresa_video #Vjogo{
+        width:90vw;
+        height:60vw;
+    }
+    
+    .btn_text_minusculo{
+        font-size:3.5vw;
+    }
     /* Fim Empresa */
+    
+    /* Ferramentas */
+    
+    #ferramentas{
+        margin-top:10vw;
+        height:80vw;
+        background-position:initial;
+    }
+    
+    .ferramentas_elementos{
+        width:50vw;
+        gap:3vw;
+    }
+
+    .ferramentas_elementos .btn{
+        padding:2.5vw 0vw 2.5vw 0vw;
+    }
+    
+    /* Fim ferramentas */
 }
