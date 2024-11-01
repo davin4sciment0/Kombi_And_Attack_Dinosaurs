@@ -101,15 +101,37 @@ body{
 
 #projetos{  
     position: absolute;
-    margin: 35vw 9vw;
+    margin: 35.5vw 9vw;
     display: flex;
     width: 80vw;
-    height: 17vw;
+    height: 15.5vw;
     justify-content: space-between;
 }
 
 .projetos_info{
-    background-color: #8d6161;
+    background-color: #000000;
     width: 15vw;
     border-radius: 1vw;
+    display: flex;
+    overflow:hidden;
+}
+
+.nome_projs{
+    position: absolute;
+    margin:9.5vw 0 0 1.5vw;
+    font: bold 16pt Verdana;
+    color: white;
+}
+
+.descri_projs{
+    width: 12vw;
+    position: absolute;
+    position: absolute;
+    margin: 11.5vw 0 0 1.5vw;
+    font: normal 11pt Verdana;
+    color: white;
+}
+
+.imgs_projs{
+    opacity: 0.5;
 }
