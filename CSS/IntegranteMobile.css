@@ -1,0 +1,193 @@
+@media(max-width:1350px){
+    #sep_img{
+        height: 50vw;
+    }
+
+    #foto_integrante{
+        width:110vw;
+        height:50vw;
+    }
+
+    #dados_integrantes{
+        width: 35vw;
+    }
+
+    #projetos{  
+        width:85vw;
+        margin: 43vw 7vw;
+    }
+
+    .projetos_info{
+        width:18vw;
+        height:18vw;
+    }
+}
+
+@media(max-width:1000px){ /* Código responsável por realizar as modificações que serão feitas, de acordo com o tamanho da tela do site. No caso, só fará as modificações se for menor que 1001px*/
+    ::-webkit-scrollbar{
+        width:6px;
+    }
+
+    .text{
+        font-size:3vw;
+    }
+    
+    /* Navegação ---------------------------------------------------------------------  */
+
+    #iconeNavMobile{
+        display:block;
+        font-size:10vw;
+        color:var(--link-color);
+        margin-right:5vw;
+        cursor:pointer;
+        transition:ease-out 0.5s;
+    }
+    #iconeNavMobile:hover{
+        scale:1.1;
+        color:var(--secundary-link-color);
+    }
+    
+    #barraNav_mobile{
+        display:none;
+        align-items:center; 
+        flex-direction: column;
+        position:fixed;
+        gap:12vw;
+        right:0;
+        width:30vw;
+        height:90vw;
+        background-color: #161616;
+        border-radius:0vw 0vw 2vw 2vw;
+        box-shadow:0px 0px 10px 3px #000;
+        z-index:999999;
+    }
+    .itens_navMobile{
+        display:flex;
+        flex-direction: column;
+        align-items:center; 
+        gap:12vw;
+    }
+    #iconeFecharNavMobile{
+        font-size:5vw;
+        color:var(--link-color);
+        cursor:pointer;
+        transition:ease-out 0.5s;
+        padding-top:5vw;
+    }
+    #iconeFecharNavMobile:hover{
+        scale:1.1;
+        color:var(--secundary-link-color);
+    }
+
+    .form_btn_nav{
+        font-size:4vw;
+    }
+    .form_btn_nav:hover{
+        font-size:4.5vw;
+    }
+    
+    #btns_nav{
+        display:none;
+    }
+
+    #barra_nav{
+        padding-top: 5vw;
+        height: 20vw;
+    }
+
+    #logo_nav{
+        margin-left: 5vw;
+    }
+
+    .btn_logo_nav{
+        width: 10vw;
+    }
+    .btn_logo_nav:hover{
+        width: 12vw;
+    }
+
+    /* Fim navegação ---------------------------------------------------------------------  */
+
+    #divulgacao{
+        height: 170vw;
+    }
+
+    #sep_img{
+        width: 100%;
+        height: 90vw;
+    }
+
+    #foto_integrante{
+        height:90vw;
+        width:185vw;
+        margin-left:-40vw;
+    }
+    
+    #dados_integrantes{
+        display:flex;
+        flex-direction: column;
+        justify-content: initial;
+        gap:1vw;
+        width: 50vw;
+        margin: 25vw 0 0 10vw;
+    }
+    
+    #nome{
+        font: bold 6.5vw Verdana;
+    }
+    
+    #frase_integrante{
+        font: normal 3vw Verdana;
+    }
+    
+    #sep_icons{
+        display: flex;
+        justify-content: space-between;
+        gap:5vw;
+        margin:0 0 6vw 0;
+    }
+    
+    .icon_redes{
+        width: 7vw;
+    }
+    
+    #btn_curriculum{
+        width: 100%;
+        height: 8vw;
+    }
+    
+    #download_icon{
+        width: 4vw;
+    }
+    
+    #projetos{  
+        display:flex;
+        gap:6vw;
+        flex-wrap: wrap;
+        margin: 82vw 7vw;
+        width: 85vw;
+        height: 0vw;
+    }
+    
+    .projetos_info{
+        width:38vw;
+        height:38vw;
+        border-radius: 2vw;
+        display: flex;
+        overflow:hidden;
+    }
+    
+    .nome_projs{
+        position: absolute;
+        margin:5vw 0 0 3vw;
+        font: bold 4.5vw Verdana;
+        color: white;
+    }
+    
+    .descri_projs{
+        width: 20vw;
+        position: absolute;
+        margin: 12vw 0 0 4vw;
+        font: normal 3vw Verdana;
+    }
+}
