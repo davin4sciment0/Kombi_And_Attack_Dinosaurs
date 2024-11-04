@@ -179,8 +179,8 @@
     
     .nome_projs{
         position: absolute;
-        margin:18vw 0 0 3vw;
-        font: bold 4.5vw Verdana;
+        margin:19vw 0 0 3vw;
+        font: bold 4vw Verdana;
         color: white;
     }
     
@@ -188,6 +188,6 @@
         width: 30vw;
         position: absolute;
         margin: 25vw 0 0 3vw;
-        font: normal 3vw Verdana;
+        font: normal 2.5vw Verdana;
     }
 }
