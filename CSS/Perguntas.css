@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    paddin:0;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../IMG/imgJogo.jpg');
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(8, 8, 8, 0.952);
+    height: 49.2VW;
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    font: bold 35pt Verdana;
+    letter-spacing: 0.5vw;
+    margin-top: 10vw;
+    color: var(--link-color);
+}
+
+.formulario{
+    display: flex;
+    margin-top: 16vw;
+    width: 28vw;
+}
+
+.pergunta{
+    position: absolute;
+    font: bold 14pt Verdana;
+    color: rgb(255, 255, 255);
+}
+
+.escr_pergunta{
+    position: absolute;
+    width: 24vw;
+    height: 2.5vw;
+    border-radius: 0.6vw;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding: 0 2vw 0 2vw;
+    font: normal 12pt Verdana;
+}
+
+#p1{
+
+}
+
+#r1{
+    margin-top: 1.8vw;
+}
+
+#p2{
+    margin-top: 6vw;
+}
+
+#r2{
+    margin-top: 7.8vw;
+    height: 6vw;
+}
