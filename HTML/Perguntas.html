@@ -9,6 +9,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- Biblioteca de animação com scroll bootstrap -->
     <link rel="stylesheet" href="../CSS/Attac_Dinosaurs.css">
     <link rel="stylesheet" href="../CSS/Attack_Dinosaurs_Mobile.css">
+    <script src="../JS/Perguntas.js" defer></script>
 </head>
 <body>
      <!--Barra de Navegação da página-->
@@ -41,18 +42,25 @@
 
      <section class="container">
         <h1>FALE CONOSCO</h1>
-        <form class="formulario">
-            <label class="pergunta" id="p1">Quem é você?</label>
-            <input class="escr_pergunta" id="r1" placeholder="Digite aqui..." name="name">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="formulario">
+
+            <input type="hidden" name="accessKey" value="70f3ca82-07f1-4ec3-aae7-02d6bcc5ecd6">
+
+            <label class="pergunta" id="p1">Digite seu nome:</label>
+            <input name="name" class="escr_pergunta" id="r1" placeholder="Digite aqui..." required>
+
             <label class="pergunta" id="p2">O que achou do jogo?</label>
-            <input class="escr_pergunta" id="r2" placeholder="Digite aqui..." name="name">
+            <input class="escr_pergunta" id="r2" placeholder="Digite aqui..." name="question" required>
+
             <label class="pergunta" id="p3">Ficou com alguma dúvida?</label>
-            <input class="escr_pergunta" id="r3" placeholder="Digite aqui..." name="name">
+            <textarea id="r3" placeholder="Digite aqui..." name="mensage" rows="10"></textarea>
 
             <div class="btns_container">
-                <button class="btns" id="deletar">Deletar</button>
-                <button class="btns" id="enviar">Enviar</button>
+                <button class="btns" id="deletar" type="reset">Deletar</button>
+                <button class="btns" id="enviar" type="submit" onclick="Enviado()">Enviar</button>
             </div>
+
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/HTML/Perguntas.html">
         </form>
 
      </section>

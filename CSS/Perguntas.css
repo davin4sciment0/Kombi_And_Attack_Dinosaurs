@@ -22,14 +22,14 @@ h1{
     position: absolute;
     font: bold 2.7vw Verdana;
     letter-spacing: 0.5vw;
-    margin-top: 10vw;
+    margin-top: 8vw;
     color: var(--link-color);
     user-select: none;
 }
 
 .formulario{
     display: flex;
-    margin-top: 16vw;
+    margin-top: 14vw;
     width: 28vw;
 }
 
@@ -70,11 +70,21 @@ h1{
 
 #r3{
     margin-top: 14vw;
+
+    position: absolute;
+    width: 24vw;
+    border-radius: 0.6vw;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding: 1vw 2vw 0 2vw;
+    font: normal 0.8vw Verdana;
+    user-select: none;
+    resize: none;
 }
 
 .btns_container{
     display: flex;
-    margin: 19vw  0 0 1.7vw ;
+    margin: 26vw  0 0 1.7vw ;
 }
 
 .btns{
