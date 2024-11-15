@@ -37,70 +37,15 @@ let whatsapp = document.getElementById('whatsapp');
 
 let grupo = [Integrante1, Integrante2, Integrante3, Integrante4, Integrante5, Integrante6];
 
-function CauaF(){
+function Troca(num){
     console.log('foi')
-    nome.innerHTML = grupo[0].nome;
-    frase.innerHTML = grupo[0].frase;
-    img_integrante.src = grupo[0].foto;
-    git.href = grupo[0].git;
-    linkedin.href = grupo[0].linkedin;
-    instagram.href = grupo[0].instagram;
-    whatsapp.href = grupo[0].whatsapp;
-}
-
-function DaviF(){
-    console.log('foi');
-    nome.innerHTML = grupo[1].nome;
-    frase.innerHTML = grupo[1].frase;
-    img_integrante.src = grupo[1].foto;
-    git.href = grupo[1].git;
-    linkedin.href = grupo[1].linkedin;
-    instagram.href = grupo[1].instagram;
-    whatsapp.href = grupo[1].whatsapp;
-}
-
-function GabrielF(){
-    console.log('foi');
-    nome.innerHTML = grupo[2].nome;
-    frase.innerHTML = grupo[2].frase;
-    img_integrante.src = grupo[2].foto;
-    git.href = grupo[2].git;
-    linkedin.href = grupo[2].linkedin;
-    instagram.href = grupo[2].instagram;
-    whatsapp.href = grupo[2].whatsapp;
-}
-
-function FernandaF(){
-    console.log('foi');
-    nome.innerHTML = grupo[3].nome;
-    frase.innerHTML = grupo[3].frase;
-    img_integrante.src = grupo[3].foto;
-    git.href = grupo[3].git;
-    linkedin.href = grupo[3].linkedin;
-    instagram.href = grupo[3].instagram;
-    whatsapp.href = grupo[3].whatsapp;
-}
-
-function PedroF(){
-    console.log('foi');
-    nome.innerHTML = grupo[4].nome;
-    frase.innerHTML = grupo[4].frase;
-    img_integrante.src = grupo[4].foto;
-    git.href = grupo[4].git;
-    linkedin.href = grupo[4].linkedin;
-    instagram.href = grupo[4].instagram;
-    whatsapp.href = grupo[4].whatsapp;
-}
-
-function RuanF(){
-    console.log('foi');
-    nome.innerHTML = grupo[5].nome;
-    frase.innerHTML = grupo[5].frase;
-    img_integrante.src = grupo[5].foto;
-    git.href = grupo[5].git;
-    linkedin.href = grupo[5].linkedin;
-    instagram.href = grupo[5].instagram;
-    whatsapp.href = grupo[5].whatsapp;
+    nome.innerHTML = grupo[num].nome;
+    frase.innerHTML = grupo[num].frase;
+    img_integrante.src = grupo[num].foto;
+    git.href = grupo[num].git;
+    linkedin.href = grupo[num].linkedin;
+    instagram.href = grupo[num].instagram;
+    whatsapp.href = grupo[num].whatsapp;
 }
 
 // Verifica se a informação foi armazenada na tela anterior
@@ -109,37 +54,27 @@ window.onload = function() {
     if(clicado){
         switch(clicado) {
             case 'Caua':
-                CauaF();
+                Troca(0);
                 break;
             case 'Davi':
-                DaviF();
+                Troca(1);
                 break;
             case 'Gabriel':
-                GabrielF();
+                Troca(2);
                 break;
             case 'Fernanda':
-                FernandaF();
+                Troca(3);
                 break;
             case 'Pedro':
-                PedroF();
+                Troca(4);
                 break;
             case 'Ruan':
-                RuanF();
+                Troca(5);
                 break;
             default:
                 console.log('nada');
         }
     }
-
-    
-
-
-    /*
-    if (clicado === 'Caua') {
-        CauaF();
-    }
-    else if(clicado === 'Davi'){
-        DaviF();
-    }*/
 }
+
 
