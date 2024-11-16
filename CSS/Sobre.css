@@ -41,14 +41,14 @@
 
 .estrategias_layout{
     background-color:var(--bg-secundary-color);
-    width:16vw;
+    width:17vw;
     display:flex;
     align-items:center;
     flex-direction:column;
     justify-content: center;
     padding:2vw;
     gap:2vw;
-    border-radius:2vw 2vw 0 0;
+    border-radius:2vw 2vw 2vw 2vw;
     box-shadow:4px 4px 8px 2px #000;
 }
 
@@ -110,7 +110,8 @@
 /* Fim grupo */
 /* Integrantes */
 #integrantes{
-    margin-top:5vw;
+    margin:5vw auto;
+    width: 95vw;
     display:flex;
     justify-content:space-around;
 }
@@ -121,7 +122,7 @@
     background-repeat:no-repeat;
     background-position: center;
     border-radius:0.5vw;
-    width:15vw;
+    width:13vw;
     height:23vw;
     text-align:center;
     display:flex;
@@ -142,6 +143,36 @@
     font-weight:500;
     color:#fff;
     margin-bottom:1vw;
+}
+#Caua{
+    background-image:url(../IMG/img_integrantes/CauaIcon.jpg);
+}
+
+#Davi{
+    background-image:url(../IMG/img_integrantes/DaviIcon.jpg);
+}
+#Davi h2{
+    color: #2c2c2c;
+}
+
+
+#Gabriel{
+    background-image:url(../IMG/img_integrantes/GabrielIcon.jpg);
+}
+
+#Fernanda{
+    background-image:url(../IMG/img_integrantes/FernandaIcon.jpg);
+}
+
+#Ruan{
+    background-image:url(../IMG/img_integrantes/RuanIcon.jpg);
+}
+#Ruan h2{
+    color: #2c2c2c;
+}
+
+#Pedro{
+    background-image:url(../IMG/img_integrantes/PedroIcon.jpg);
 }
 /* Fim Integrantes */
 
