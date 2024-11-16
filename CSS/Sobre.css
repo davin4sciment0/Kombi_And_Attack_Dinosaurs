@@ -16,6 +16,7 @@
     font-size:2.5vw;
     font-family:"Radio Canada Big", arial black;
     color:var(--text-color);
+    user-select: none;
 }
 
 .apresentacao_elementos{

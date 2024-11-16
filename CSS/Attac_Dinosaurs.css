@@ -118,6 +118,7 @@ a{
     text-transform: uppercase;
     text-align:center;
     color:var(--title-color);
+    user-select: none;
 }
 
 .subtitulos{
@@ -125,6 +126,7 @@ a{
     font-family:'inter', arial black, sans-serif; /* Tipo da fonte */
     font-weight:800; /* Expessura da fonte */
     color:var(--text-color); /* Cor do texto */
+    user-select: none;
 }
 
 .text{
@@ -133,6 +135,7 @@ a{
     font-weight:200;
     text-align: justify; /* Alinhamento do texto como justificado */
     color:var(--text-color);
+    user-select: none;
 }
 
 /* Inicio Layout ---------------------------------------------------------------  */
@@ -147,6 +150,7 @@ a{
 .logoJogo{
     animation: scaleLogo 5s ease-in-out infinite;;
     width:40vw;
+    user-select: none;
 }
 
 @keyframes scaleLogo{
@@ -408,6 +412,7 @@ a{
     font: bold 7vw Arial;
     color:var(--title-color);
     position: absolute;
+    user-select: none;
 }
 
 .obj3d{
