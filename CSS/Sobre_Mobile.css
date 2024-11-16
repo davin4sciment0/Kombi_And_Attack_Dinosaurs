@@ -83,7 +83,7 @@
 
     /* Fim navegação ---------------------------------------------------------------------  */
 
-    #inicio{
+    #apresentacao{
         height:150vw;
         display:flex;
         align-items:center;
@@ -93,7 +93,7 @@
         font-size:6vw;
     }
     
-    .inicio_elementos{
+    .apresentacao_elementos{
         gap:4vw;
         width:55%;
         height:140vw;
