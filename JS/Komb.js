@@ -1,3 +1,4 @@
+
 // importando o modulo da biblioteca Three js
 import * as THREE from '../3D_Runner/build/three.module.min.js';
 import { OrbitControls } from '../3D_Runner/jsm/OrbitControls.js';
@@ -16,8 +17,9 @@ window.onresize = function () {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
 
+    
     // Ajustes da cena
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(window.innerWidth , window.innerHeight);
 };
 
 // Função de inicialização da cena
@@ -81,7 +83,14 @@ function init() {
             child.castShadow = true;
         });
 
-        kombObject.scale.set(1.2, 1.2, 1.2  );
+        if(window.innerWidth < 600){
+            kombObject.scale.set(0.7, 0.7, 0.7);
+        }
+        else{
+            kombObject.scale.set(1.2, 1.2, 1.2);
+        }
+
+
     });
 
     //Controle da câmera
