@@ -84,7 +84,7 @@ function init() {
         });
 
         if(window.innerWidth < 600){
-            kombObject.scale.set(0.7, 0.7, 0.7);
+            kombObject.scale.set(0.6, 0.6, 0.6);
         }
         else{
             kombObject.scale.set(1.2, 1.2, 1.2);
