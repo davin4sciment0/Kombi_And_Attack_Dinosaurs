@@ -1,0 +1,86 @@
+@media(max-width:1000px){
+    h1{
+        margin-top: 30vw;
+        font: bold 7vw Verdana;
+    }
+
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../IMG/Backgraund/back2.jpg');
+        background-size: auto;
+    }
+    
+    .container{
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    .formulario{
+        margin-top: 50vw;
+        width: 55vw;
+    }
+
+    .pergunta{
+        font: bold 4vw Verdana;
+        color: rgb(255, 255, 255);
+    }
+
+    .escr_pergunta{
+        width: 55vw;
+        height: 6vw;
+        border-radius: 1.5vw;
+    }
+
+    #r1{
+        margin-top: 7vw;
+        font: normal 2.5vw Verdana;
+    }
+    
+    #p2{
+        margin-top: 15vw;
+    }
+    
+    #r2{
+        margin-top: 22vw;
+        font: normal 2.5vw Verdana;
+    }
+    
+    #p3{
+        margin-top: 30vw;
+    }
+    
+    #r3{
+        margin-top: 38vw;
+    
+        width: 56vw;
+        height: 25vw;
+        border-radius: 2vw;
+        padding: 3vw 0vw 0 3vw;
+        font: normal 2.5vw Verdana;
+        user-select: none;
+        resize: none;
+    }
+
+    .btns_container{
+        margin: 80vw  0 0 1.7vw ;
+    }
+
+    .btns{
+        width: 27vw;
+        height: 7VW;
+        font: bold 2.5vw Verdana;
+        color: aliceblue;
+        border: none;
+        user-select: none;
+    }
+    
+    #deletar{
+        border-radius: 1.5vw 0 0 1.5vw;
+    }
+    
+    #enviar{
+        border-radius: 0 1.5vw 1.5vw 0;
+    }
+    
+
+}
