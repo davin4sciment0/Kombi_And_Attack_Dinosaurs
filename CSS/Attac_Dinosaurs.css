@@ -476,9 +476,8 @@ a{
 }
 
 #Vjogo{
-    width: 60vw;
-    height: 32.3vw;
-    border-radius: 1vw;
+    width: 50vw;
+    height: 30vw;
     text-align: center;
     box-shadow:  33px 33px 20px #0a0a0a,
     -33px -33px 20px #0e0e0e;
