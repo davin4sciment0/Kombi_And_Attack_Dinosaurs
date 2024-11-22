@@ -213,7 +213,7 @@
     /* Ferramentas */
     
     #ferramentas{
-        margin-top:10vw;
+        margin-top:35vw;
         height:80vw;
         background-position:initial;
     }
@@ -228,4 +228,30 @@
     }
     
     /* Fim ferramentas */
+
+    /*APAGAR AQUI*/
+    #parcerias{
+        margin-top: 8vw;
+        width: 100%;
+        height: 20vw;
+        text-align: center;
+    }
+    
+    #Par_titulo{
+        font: bold 3.2vw Verdana;
+        color: #ffffff;
+    }
+    
+    #Sala18{
+        width: 20vw;
+        margin-top: 2vw;
+    }
+    
+    #sep_18{
+        margin: 5vw auto;
+        background-color: #000000;
+        height: 38vw;
+        width: 35vw;
+        border-radius: 4vw;
+    }
 }
