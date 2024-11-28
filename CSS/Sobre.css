@@ -274,7 +274,7 @@
 }
 
 #container{
-    margin-top:5vw;
+    margin-top:4vw;
     display: flex;
     width: 100%;
 }
@@ -306,5 +306,13 @@
     font: italic 1.2vw Verdana;
     justify-content: center;
     position: absolute;
-    margin: 10vw 26vw;
+    margin: 9vw 26vw;
+}
+
+/* FIM Agradecimentos BG */
+
+/*SAPINHOS*/
+
+#Sapinhos_sapecas{
+    width: 100%;
 }
