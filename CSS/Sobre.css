@@ -267,30 +267,44 @@
 
 /* Fim ferramentas */
 
+/* Agradecimentos BG */
 
-/*APAGAR AQUI*/
-
-#parcerias{
-    margin-top: 4vw;
+#BG{
     width: 100%;
-    height: 20vw;
-    text-align: center;
 }
 
-#Par_titulo{
-    font: bold 1.5vw Verdana;
-    color: #ffffff;
+#container{
+    margin-top:5vw;
+    display: flex;
+    width: 100%;
 }
 
-#Sala18{
-    width: 10vw;
-    margin-top: 2vw;
+#logo_etec{
+    position: absolute;
+    width:14vw;
+    margin-left:42.5vw;
+    z-index: 1;
 }
 
-#sep_18{
-    margin: 3vw auto;
-    background-color: #000000;
-    height: 20vw;
-    width: 20vw;
-    border-radius: 2vw;
+#fundo_bg{
+    margin-top: 8vw;
+    width: 100%;
+    height: 23vw;
+    background-color: #000;
+}
+
+#img_fundo{
+    opacity: 0.4;
+    width: 100%;
+    height: 23vw;
+    position: absolute;
+}
+
+#texto_bg{
+    width: 45vw;
+    color:#ffffffce;
+    font: italic 1.2vw Verdana;
+    justify-content: center;
+    position: absolute;
+    margin: 10vw 26vw;
 }
