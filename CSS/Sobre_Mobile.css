@@ -213,7 +213,7 @@
     /* Ferramentas */
     
     #ferramentas{
-        margin-top:35vw;
+        margin-top:10vw;
         height:80vw;
         background-position:initial;
     }
@@ -254,4 +254,59 @@
         width: 35vw;
         border-radius: 4vw;
     }
+
+    /* Agradecimentos BG */
+
+#BG{
+    width: 100%;
+}
+
+#container{
+    margin-top:10vw;
+    display: flex;
+    width: 100%;
+
+}
+
+#logo_etec{
+    position: absolute;
+    width:25vw;
+    margin-left:39vw;
+    z-index: 1;
+}
+
+#fundo_bg{
+    margin-top: 12vw;
+    width: 100%;
+    height: 50vw;
+
+}
+
+#img_fundo{
+    opacity: 0.4;
+    width: 100%;
+    height: 50vw;
+    position: absolute;
+}
+
+#efeito{
+    position: absolute;
+    background-image: linear-gradient( to top, #0C0C0C,#0c0c0cd7,#0c0c0c00);
+    width: 100%;
+    height: 35vw;
+    margin-top: 16vw;
+}
+
+#texto_bg{
+    width: 70vw;
+    color:#ffffffce;
+    font: italic 3vw Verdana;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin: 18vw 15.5vw;
+}
+
+/* FIM Agradecimentos BG */
+
 }

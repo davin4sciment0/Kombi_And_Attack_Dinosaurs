@@ -1,0 +1,85 @@
+@media(max-width:1000px){
+    /*FOOTER*/
+
+#Sapinhos_sapecas{
+    width: 100%;
+    display: flex;
+}
+
+#sapinhos{
+    width: 100%;
+    height:30vw;
+    overflow: hidden;
+}
+
+#botao18{
+    position: absolute;
+    margin:12vw 38vw;
+    width: 28vw;
+    height: 22vw;
+    padding-top: 2vw;
+    text-align: center;
+    border-radius: 2vw;
+    background-color: #000;
+}
+
+#T_sapinhos{
+    width: 50vw;
+    position: absolute;
+    font: bold 4vw Verdana;
+    color: #fff;
+    margin: 3vw 29vw;
+}
+
+#img_sala18{
+    width: 13vw;
+}
+
+#infos_empresa{
+    height: 90vw;
+    width: 100%;
+    background-color: #92ad30;
+}
+
+#infos_empresa{
+    display: flex;
+}
+
+#mapa{
+    position: absolute;
+    margin: 45vw 0 0 10vw;
+    height: 35vw;
+    width: 80vw;
+    border-radius: 3vw;
+}
+
+.icones_footer{
+ width: 10vw;
+ height: 10vw;
+}
+
+#copy{
+    position: absolute;
+    margin: 2vw;
+    font: bold 3vw Verdana;
+    color: #ffffff;
+    width:70vw;
+    margin: 22vw 0 0 1vw;
+}
+
+#icones_container{
+    position: absolute;
+    margin: 6vw 0 0 12vw;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.5vw;
+}
+
+#contas_empresa{
+    position: absolute;
+    margin: 7vw 0 0 15vw;
+    width: 40vw;
+    height: 10vw;
+}
+}
