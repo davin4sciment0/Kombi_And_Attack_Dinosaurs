@@ -37,12 +37,18 @@
 #infos_empresa{
     height: 20.5vw;
     width: 100%;
-    background-color: #92ad30;
+    background-color: #0C0C0C;
 }
 
 #infos_empresa{
     display: flex;
 }
+
+.icones_footer{
+    width: 4vw;
+
+   }
+   
 
 #mapa{
     margin: 4.5vw 17vw;

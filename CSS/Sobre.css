@@ -131,6 +131,12 @@
     justify-content:space-around;
 }
 
+.titulo_pagsobre_int{
+    font: bold 4vw arial;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
 .integrante_img{
     background-image:url(../IMG/Img_grupo/semfoto.jpg);
     background-size:cover;
@@ -166,9 +172,6 @@
 #Davi{
     background-image:url(../IMG/img_integrantes/DaviIcon.jpg);
 }
-#Davi h2{
-    color: #2c2c2c;
-}
 
 
 #Gabriel{
@@ -181,9 +184,6 @@
 
 #Ruan{
     background-image:url(../IMG/img_integrantes/RuanIcon.jpg);
-}
-#Ruan h2{
-    color: #2c2c2c;
 }
 
 #Pedro{

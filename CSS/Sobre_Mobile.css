@@ -84,16 +84,22 @@
     /* Fim navegação ---------------------------------------------------------------------  */
 
     #apresentacao{
-        height:150vw;
+        width: 100%;
+        height:100vw;
         display:flex;
         align-items:center;
     }
-    
-    .titulo_pagsobre{
-        font-size:6vw;
+
+    #texto_apresentacao{
+        position: absolute;
+        width: 50vw;
+        margin: 35vw 0 0 1vw;
+        font-size: 2.8vw;
     }
     
+    
     .apresentacao_elementos{
+        display: flex;
         gap:4vw;
         width:55%;
         height:140vw;
@@ -104,7 +110,42 @@
     /* Estrategias */
 
     #estrategias{
-        margin-top:10vw;
+            height: 180vw;
+            display: flex;
+    }
+
+    .estrategias_img{
+        position: absolute;
+        margin: 0 0 45vw 0;
+    }
+
+    #missao{
+        height: 40vw;
+        position: absolute;
+        width: 75vw;
+        margin: 0  0 120vw 19vw;
+        border-radius: 3vw 0 0 3vw;
+    }
+
+    #visao{
+        height: 40vw;
+        position: absolute;
+        width: 75vw;
+        margin: 10vw 20vw 0 0;
+        border-radius: 0 3vw 3vw 0;
+    }
+
+    #valores{
+        height: 40vw;
+        position: absolute;
+        width: 75vw;
+        margin: 140vw  0 0 19vw;
+        border-radius: 3vw 0 0 3vw;
+    }
+
+    .text{
+        margin-top: 10vw;
+        width: 60vw;
     }
 
     .estrategias_layout{
@@ -143,13 +184,37 @@
     /* Grupo */
     #grupo{
         margin-top:10vw;
-        width:95%;
+        width:85vw;
         height:55vw;
-        border-radius:0 1vw 1vw 0;
+        border-radius:0 3vw 3vw 0;
     }
     .grupo_elementos{
-        width:80%;
+        display: flex;
+        width:70vw;
+        height: 60vw;
     }
+
+    .titulo_pagsobre{
+        position: absolute;
+        margin: 0 0 28vw 0;
+        font-size: 7vw;
+    }
+
+    .titulo_pagsobre_int{
+        margin: 2vw 0 0 9.8vw;
+        width: 20vw;
+        font: bold 4vw arial;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+
+    .texto_grupo{
+        margin: 14vw 0 0 0.8vw;
+        font-size: 3vw;
+        color: #fff;
+    }
+
+
     /* Fim grupo */
     /* Integrantes */
     #integrantes{
