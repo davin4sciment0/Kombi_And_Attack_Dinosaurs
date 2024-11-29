@@ -1,0 +1,72 @@
+/*FOOTER*/
+
+#Sapinhos_sapecas{
+    width: 100%;
+    display: flex;
+}
+
+#sapinhos{
+    width: 100%;
+    height:19vw;
+    overflow: hidden;
+}
+
+#botao18{
+    position: absolute;
+    margin:8vw 42vw;
+    width: 14vw;
+    height: 12vw;
+    padding-top: 1.5vw;
+    text-align: center;
+    border-radius: 2vw;
+    background-color: #000;
+}
+
+#T_sapinhos{
+    width: 40vw;
+    position: absolute;
+    font: bold 2.4vw Verdana;
+    color: #fff;
+    margin: 3vw 35vw;
+}
+
+#img_sala18{
+    width: 7vw;
+}
+
+#infos_empresa{
+    height: 20.5vw;
+    width: 100%;
+    background-color: #92ad30;
+}
+
+#infos_empresa{
+    display: flex;
+}
+
+#mapa{
+    margin: 4.5vw 17vw;
+    height:14vw;
+    width: 30vw;
+    border-radius: 1vw;
+}
+
+#copy{
+    margin: 2vw;
+    text-align: center;
+    font: bold 1vw Verdana;
+    color: #ffffff;
+}
+
+#icones_container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1.5vw;
+}
+
+#contas_empresa{
+    position: absolute;
+    margin: 7vw 53vw;
+    width: 30vw;
+    height: 10vw;
+}

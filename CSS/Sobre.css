@@ -277,6 +277,7 @@
     margin-top:4vw;
     display: flex;
     width: 100%;
+
 }
 
 #logo_etec{
@@ -289,15 +290,23 @@
 #fundo_bg{
     margin-top: 8vw;
     width: 100%;
-    height: 23vw;
-    background-color: #000;
+    height: 25vw;
+
 }
 
 #img_fundo{
     opacity: 0.4;
     width: 100%;
-    height: 23vw;
+    height: 28vw;
     position: absolute;
+}
+
+#efeito{
+    position: absolute;
+    background-image: linear-gradient( to top, #0C0C0C,#0c0c0cd7,#0c0c0c00);
+    width: 100%;
+    height: 12vw;
+    margin-top: 16vw;
 }
 
 #texto_bg{
@@ -311,8 +320,5 @@
 
 /* FIM Agradecimentos BG */
 
-/*SAPINHOS*/
 
-#Sapinhos_sapecas{
-    width: 100%;
-}
+

@@ -464,7 +464,8 @@ a{
 
 /* Inicio Video do Jogo ------------------------------------------------------------------ */
 #video_jogo{
-    margin-top:5vw;
+    margin-top:2vw;
+    border: none;
 }
 
 #conteudo{
@@ -481,6 +482,7 @@ a{
     text-align: center;
     box-shadow:  33px 33px 20px #0a0a0a,
     -33px -33px 20px #0e0e0e;
+    border: none;
 }
 
 .video_btntext{
