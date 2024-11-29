@@ -271,6 +271,19 @@ a{
     color:var(--link-color);
 }
 
+#HQ i{
+    margin-top: 13vw;
+    font-size:3vw;
+    color:var(--text-color);
+    transition:ease-in-out 0.2s;
+    cursor:pointer;
+}
+#HQ i:hover{
+    color:var(--link-color);
+}
+
+
+
 .fases_btnpassar{
     display:flex;
     justify-content:center;
@@ -397,9 +410,39 @@ a{
 }
 /* Fim efeito de transicao */
 
+
+/* Inicio HQ --------------------------------------------------------------- */
+
+#HQ{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+#T_HQ{
+    font: bold 3.2vw Verdana;
+    text-align: center;
+    color: #ebebeb;
+}
+
+#HQ_container{
+    margin: 3vw auto 3vw auto;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+#imagens{
+    width: 25vw;
+}
+
+
+/* Fim HQ --------------------------------------------------------------- */
+
 /* Inicio Game Art --------------------------------------------------------------- */
 #game_art{
     height: 75vw;
+    margin-top: 2VW;
 }
 
 #elementos1{

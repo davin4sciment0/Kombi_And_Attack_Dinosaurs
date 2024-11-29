@@ -4,11 +4,12 @@
 #Sapinhos_sapecas{
     width: 100%;
     display: flex;
+
 }
 
 #sapinhos{
     width: 100%;
-    height:30vw;
+    height:40vw;
     overflow: hidden;
 }
 
