@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 1vw;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+.box{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+#cena{
+    margin: 4.6vw auto;
+}
+
+#nome{
+    background-color: none;
+    position: absolute;
+    font: bold 90pt Verdana;
+    justify-content: center;
+    color: rgb(185, 185, 185);
+}
+    
+#frase{
+    margin-top: 30vw;
+    position: absolute;
+    justify-content: center;
+    color: rgb(165, 165, 165);
+    font: normal 12pt Arial;
+}
