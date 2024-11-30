@@ -417,6 +417,7 @@ a{
     width: 100%;
     justify-content: center;
     text-align: center;
+    margin: 1vw 0 5vw 0;
 }
 
 #T_HQ{
@@ -435,6 +436,17 @@ a{
 #imagens{
     width: 25vw;
 }
+
+#btn_mobL{
+    display: none;
+}
+
+#btn_mobR{
+    display: none;
+}
+
+
+
 
 
 /* Fim HQ --------------------------------------------------------------- */

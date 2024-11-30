@@ -70,9 +70,8 @@ body{
 }
 
 #btn_curriculum{
-    width: 25vw;
-    height: 4vw;
-    background-color: rgb(172, 45, 45);
+    padding: 2vw 10vw 1vw 10vw;
+    background-color: rgb(172, 45, 51);
     border: none;
     border-radius: 0.5vw;
     transition: 1s;

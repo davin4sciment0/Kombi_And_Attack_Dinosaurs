@@ -152,8 +152,9 @@
     }
     
     #btn_curriculum{
-        width: 100%;
-        height: 8vw;
+        padding: 3vw 8vw 2vw 8vw;
+        border-radius: 2vw;
+        text-align: center;
     }
     
     #download_icon{

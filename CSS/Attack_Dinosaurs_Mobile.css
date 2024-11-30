@@ -246,6 +246,82 @@
     }
     /* Fim efeito de transicao */
 
+    /* Inicio HQ --------------------------------------------------------------- */
+
+    #HQ{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    
+    #T_HQ{
+        font: bold 6vw Verdana;
+        text-align: center;
+        color: #ebebeb;
+    }
+    
+    #HQ_container{
+        margin: 10vw auto 3vw auto;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    #imagens{
+        width: 55vw;
+    }
+
+    #hq_setaL{
+        display: none;
+    }
+
+    #hq_setaR{
+        display: none;
+    }
+
+    .atriBTN{
+        width: 18vw;
+        height: 10vw;
+        border: none;
+        background-color: #6f8523;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2.5vw;
+        transition: 0.5s;
+    }
+
+    .btn_HQ_mudar{
+        width:5vw;
+    }
+
+    #btn_mobL{
+        display: flex;
+        position: absolute;
+        border-radius: 2vw 0 0 2vw;
+        margin: 87vw 18vw 10vw 0;
+    }
+
+    #btn_mobL:hover{
+        transition: 1s;
+        background-color: #52611d;
+    }
+
+    #btn_mobR{
+        display: flex;
+        position: absolute;
+        border-radius: 0 2vw 2vw 0;
+        margin: 87vw 0 10vw 18vw;
+    }
+
+    #btn_mobR:hover{
+        transition: 1s;
+        background-color: #52611d;
+    }
+
+
+/* Fim HQ --------------------------------------------------------------- */
+
     /* Inicio Game Art --------------------------------------------------------------- */
     #game_art{
         height: 170vw;
@@ -259,7 +335,8 @@
     }
 
     #titulo{
-        margin-top: 22vw;
+        padding-top:5vw;
+        margin-top: 28vw;
         font-size:12vw;
         z-index: 1;
     }
@@ -302,7 +379,7 @@
     }
 
     #btn_baixar{
-
+        border-radius: 3vw;
         position: absolute;
         width: 61vw;
         height: 15vw;

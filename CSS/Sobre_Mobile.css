@@ -216,6 +216,7 @@
 
 
     /* Fim grupo */
+
     /* Integrantes */
     #integrantes{
         margin-top:10vw;
@@ -294,7 +295,7 @@
     
     /* Fim ferramentas */
 
-    /*APAGAR AQUI*/
+    /*Par cerias*/
     #parcerias{
         margin-top: 8vw;
         width: 100%;
@@ -373,5 +374,13 @@
 }
 
 /* FIM Agradecimentos BG */
+
+.btn{
+    border-radius: 2vw;
+}
+
+#btn_V{
+    border-radius: 2vw;
+}
 
 }
