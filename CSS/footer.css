@@ -5,12 +5,14 @@
     height: 30vw;
     display: flex;
     overflow: hidden;
+    user-select: none;
 }
 
 #sapinhos{
     width: 100%;
     height: 40vw;
     opacity: 1;
+    user-select: none;
 }
 
 #botao18{
@@ -22,6 +24,8 @@
     text-align: center;
     border-radius: 2vw;
     background-color: #000;
+    user-select: none;
+    cursor: pointer;
 }
 
 #T_sapinhos{
@@ -31,25 +35,30 @@
     color: #ffffff;
     margin: 5vw 30vw;
     z-index: 1;
+    user-select: none;
 }
 
 #img_sala18{
     width: 7vw;
+    user-select: none;
 }
 
 #infos_empresa{
     height: 20.5vw;
     width: 100%;
     background-color: #0C0C0C;
+    user-select: none;
 }
 
 #infos_empresa{
     display: flex;
+    user-select: none;
 }
 
 .icones_footer{
     width: 4vw;
-
+    user-select: none;
+    cursor: pointer;
    }
    
 
@@ -58,6 +67,7 @@
     height:14vw;
     width: 30vw;
     border-radius: 1vw;
+    user-select: none;
 }
 
 #copy{
@@ -65,12 +75,14 @@
     text-align: center;
     font: bold 1vw Verdana;
     color: #ffffff;
+    user-select: none;
 }
 
 #icones_container{
     display: flex;
     justify-content: space-around;
     padding-bottom: 1.5vw;
+    user-select: none;
 }
 
 #contas_empresa{
@@ -78,4 +90,5 @@
     margin: 7vw 53vw;
     width: 30vw;
     height: 10vw;
+    user-select: none;
 }

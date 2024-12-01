@@ -554,11 +554,15 @@ a{
     width: 24vw;
     height: 7vw;
     text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .textbaixar{
     font-size: 1.2vw;
     width: 28vw;
+    cursor: pointer;
+    user-select: none;
 }
 /* Fim Video do Jogo ------------------------------------------------------------------ */
 
