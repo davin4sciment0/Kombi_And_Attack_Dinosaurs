@@ -38,8 +38,8 @@ class Integrantes{
 //Adicionando "itens" a classe
 Integrante1 = new Integrantes  (
     'Cauã Silva',
-    'Sou lindo demais para não aproveitar a vida do jeito que ela deve ser aproveitada, Sócrates ja dizia',
-    '../IMG/img_integrantes/Caua.jpg', 'https://github.com/CauaSilva28',
+    'Como estudante de Front-End, sou apaixonado por criar interfaces intuitivas que unem funcionalidade e design, transformando ideias em projetos únicos e impactantes.',
+    '../IMG/img_integrantes/Caua2.jpg', 'https://github.com/CauaSilva28',
     '',
     'https://www.instagram.com/cau4_svm?igsh=cHNwa3RzMXNneWR5',
     '', 
