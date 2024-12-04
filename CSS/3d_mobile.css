@@ -1,0 +1,27 @@
+/* @media(max-width:1000px){ 
+
+    .box{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    
+    }
+
+    .box{
+        display: flex;
+    }
+    
+    #nome{
+        position: absolute;
+        margin: 60vw 0 0 280vw;
+        font: bold 60vw Arial;
+        width: 260vw;
+    }
+        
+    #frase{
+        position: absolute;
+        font: normal 18vw Arial;
+        margin: 130vw 0 0 280vw;
+        width: 200vw;
+    }
+} */

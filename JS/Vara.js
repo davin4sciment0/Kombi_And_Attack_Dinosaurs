@@ -93,7 +93,7 @@ function init() {
 
     //delimitando o zoom que podemos dar em nosso objeto da cena
     controls.minDistance =  7.6;
-    controls.maxDistance = 10;
+    controls.maxDistance =8;
 
     // deixando  o objeto girando na cena
     controls.autoRotate = true;

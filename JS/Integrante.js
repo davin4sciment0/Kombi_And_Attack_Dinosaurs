@@ -101,20 +101,22 @@ Integrante2 = new Integrantes  (
 
 Integrante3 = new Integrantes  (
     'Gabriel Faria',
-    'A vida é muito curta para deixarmos de fazer aquilo que sempre sonhamos em fazer.',
+    '"Lembre-se de manter a mente limpa em momentos difíceis Horácio"  Odes(Carmina)',
     '../IMG/img_integrantes/Gabriel.jpg', 
-    'https://github.com/davin4sciment0',
+    'https://github.com/GabrielFaria-cyber',
     '',
-    'https://www.instagram.com/davi_nasc_?utm_source=qr&igsh=ZWFtM2F1dnJ3azl1',
+    'https://www.instagram.com/gabriel76faria?igsh=MjR6eDd4cnV1anM1',
     '', 
     '', 
     'Jogo', 
-    'Jogo desenvolvido ao longo do curso', 
+    'Comemorando o aniversário de 470 de São Paulo', 
     'https://github.com/RuanPSilva/Resgate_Dos_Animanos', 
-    '../IMG/img_projetos_integrantes/Gabriel_projs/P1.png', 
-    'APP', 'Descubra um pouco sobre a história de Shigeru Myiamoto', 
-    'https://github.com/GabrielFaria-cyber/Shigeru-Miyamoto', 
     '../IMG/img_projetos_integrantes/Gabriel_projs/P2.png', 
+
+    'APP', 
+    'Aplicativo sobre um dos maiores nomes da história dos jogos, Shigeru Miyamoto', 
+    'https://github.com/GabrielFaria-cyber/Shigeru-Miyamoto', 
+    '../IMG/img_projetos_integrantes/Gabriel_projs/P1.png', 
     'Jogo da forca', 'Jogo desenvolvido ao longo do curso', 
     'https://github.com/CauaSilva28/Jogo-da-forca', 
     '../IMG/img_projetos_integrantes/Gabriel_projs/P3.png', 
@@ -129,10 +131,9 @@ Integrante4 = new Integrantes  (
     '../IMG/img_integrantes/Fernanda.jpg', 
     'https://github.com/davin4sciment0',
     '',
-    'https://www.instagram.com/davi_nasc_?utm_source=qr&igsh=ZWFtM2F1dnJ3azl1',
+    'https://www.instagram.com/nandavianam?igsh=c21mendqYmtpMWto',
     '', 
     '', 
-
     //Nome projeto1
     'Jogo Animais',
     //Frase projeto1
@@ -151,14 +152,14 @@ Integrante4 = new Integrantes  (
     //Imagem Projeto2
     '../IMG/img_projetos_integrantes/Fernanda_projs/P2.png', 
 
-    //Nome projeto3
-    'Floresta Mágica',
-    //Frase projeto3
+    //Nome projeto1
+    'Jogo Animais',
+    //Frase projeto1
     'Jogo desenvolvido ao longo do curso',
-    //Link Projeto3
-    'https://github.com/KauanJesusJD/Floresta_Magica', 
-    //Imagem Projeto3
-    '../IMG/img_projetos_integrantes/Ruan_projs/P3.png', 
+    //Link Projeto1
+    'https://github.com/RuanPSilva/Resgate_Dos_Animanos', 
+    //Imagem Projeto1
+    '../IMG/img_projetos_integrantes/Gabriel_projs/P2.png', 
 
     //Nome projeto4
     'Jogo Asteróides',
@@ -172,26 +173,27 @@ Integrante4 = new Integrantes  (
 
 Integrante5 = new Integrantes  (
     'Pedro Ferraz',
-    'A vida é muito curta para deixarmos de fazer aquilo que sempre sonhamos em fazer.',
+    'Acredito que o aprendizado nunca para. Em cada projeto que desenvolvo, vejo desafios como oportunidades e transformo sonhos em conquistas.',
     '../IMG/img_integrantes/Pedro.jpg', 
-    'https://github.com/davin4sciment0',
+    'https://github.com/PedroFRomao',
     '',
-    'https://www.instagram.com/davi_nasc_?utm_source=qr&igsh=ZWFtM2F1dnJ3azl1',
+    'https://www.instagram.com/pedrof_romao?igsh=MXYzZDc5NGN4YWs4Yw==',
     '',
     '',
     'APP',
-    'APP sobre nosso jogo desenvolvido',
+    'Descubra tudo sobre o mundo de Kombi and Dinosaurs neste app.',
     'https://github.com/PedroFRomao/App-Kombi-and-Dinosars', 
     '../IMG/img_projetos_integrantes/Pedro_projs/P1.png', 
-    'Faz ou bebe', 'APP desenvolvido para entreterimento interpessoal', 
+    'Faz ou bebe', 
+    'Leve a diversão do famoso jogo de bebidas para o seu celular com este app.', 
     'https://github.com/PedroFRomao/App-Faz-ou-Bebe', 
     '../IMG/img_projetos_integrantes/Pedro_projs/P2.png', 
     'APP', 
-    'Descubra um pouco mais sobre a vidade Jason Chan', 
+    'Explore a trajetória do renomado artista Jason Chan famoso no mundo dos jogos.', 
     'https://github.com/RuanPSilva/Jason_Chan', 
     '../IMG/img_projetos_integrantes/Pedro_projs/P3.png', 
     'Poker APP',
-    'APP desenvolvido para auxilio em uma partida de poker',
+    'Um projeto audacioso com o objetivo de criar um grande aplicativo de pôquer online.',
     'https://github.com/PedroFRomao/Poker_App',
     '../IMG/img_projetos_integrantes/Pedro_projs/P4.png'
 );
@@ -199,7 +201,8 @@ Integrante5 = new Integrantes  (
 Integrante6 = new Integrantes  (
     'Ruan Pablo',
     'A vida é muito curta para deixarmos de fazer aquilo que sempre sonhamos em fazer.',
-    '../IMG/img_integrantes/Ruan.jpg', 'https://github.com/davin4sciment0',
+    '../IMG/img_integrantes/Ruan.jpg', 
+    'https://github.com/RuanPSilva',
     '',
     'https://www.instagram.com/davi_nasc_?utm_source=qr&igsh=ZWFtM2F1dnJ3azl1',
     '',

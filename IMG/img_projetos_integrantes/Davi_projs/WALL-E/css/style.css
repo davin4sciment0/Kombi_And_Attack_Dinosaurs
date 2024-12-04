@@ -23,7 +23,7 @@ body{
 #nome{
     background-color: none;
     position: absolute;
-    font: bold 90pt Verdana;
+    font: bold 6vw Verdana;
     justify-content: center;
     color: rgb(185, 185, 185);
 }
